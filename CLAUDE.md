@@ -315,3 +315,4 @@ After every session, update CLAUDE.md to reflect any changes (check `git log` an
 - Madison remains the product name, but it is presented as a Humanitarians AI project rather than as an independent visual identity.
 - The homepage keeps Madison's govern → execute → verify product story while using the Humanitarians AI page rhythm, container widths, buttons, navigation treatment, and semantic Tailwind color tokens.
 - Do not reintroduce black editorial hero panels, Georgia display typography, hardcoded color values, or a standalone `Madison.` wordmark.
+- Header hierarchy: `Humanitarians AI` links to the parent site; `Madison` is the local homepage link. Do not repeat Madison inside the parent wordmark. Primary local navigation includes Brand Audit, Branding & AI, Brand Guidelines, Criteria, and Tools.

@@ -11,6 +11,7 @@ const navigation = [
   { name: 'Madison', href: '/' },
   { name: 'Brand Audit', href: '/brand-audit' },
   { name: 'Branding & AI', href: '/branding-ai' },
+  { name: 'Brand Guidelines', href: '/brand-guidelines' },
   { name: 'Criteria', href: '/criteria' },
   { name: 'Tools', href: '/tools' },
 ]
@@ -33,9 +34,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <div className="flex items-center gap-6 md:gap-10">
-          <Link href="https://www.humanitarians.ai/" className="flex items-center gap-2" aria-label="Humanitarians AI homepage">
+          <Link href="https://www.humanitarians.ai/" className="flex items-center" aria-label="Humanitarians AI homepage">
             <span className="text-xl font-bold tracking-tighter">Humanitarians AI</span>
-            <span className="hidden border-l pl-2 text-xs font-medium uppercase tracking-wider text-muted-foreground sm:inline">Madison</span>
           </Link>
           <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary navigation">
             {navigation.map((item) => {
