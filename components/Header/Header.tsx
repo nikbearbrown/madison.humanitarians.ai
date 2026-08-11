@@ -1,296 +1,91 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Menu, X } from 'lucide-react'
-import { cn } from '@/lib/utils'
 import ThemeToggle from '@/components/ThemeToggle'
+import { cn } from '@/lib/utils'
 
-const NAV_ITEMS = [
-  { name: 'Claude',     href: '/' },
-  { name: 'Consulting', href: '/consulting' },
-  { name: 'Criteria',   href: '/criteria' },
-  { name: 'Talent',     href: '/talent' },
-  { name: 'Essays',     href: '/essays' },
-  { name: 'Videos',     href: '/videos' },
-]
-
-const CLAUDE_MENU = [
-  { name: 'Plugins',       href: '/' },
-  { name: 'Skills',        href: '/claude/skills' },
-  { name: 'Agents',        href: '/claude/agents' },
-  { name: 'Commands',      href: '/claude/commands' },
-  { name: 'Hooks',         href: '/claude/hooks' },
-  { name: 'MCP Servers',   href: '/claude/mcp-servers' },
-  { name: 'LSP Servers',   href: '/claude/lsp-servers' },
-  { name: 'Output Styles', href: '/claude/output-styles' },
-  { name: 'Themes',        href: '/claude/themes' },
-  { name: 'Monitors',      href: '/claude/monitors' },
-  { name: 'Workflows',     href: '/claude/workflows' },
-]
-
-const SECONDARY_ITEMS = [
-  { name: 'Blog', href: '/blog' },
-]
-
-const SOCIAL_LINKS = [
-  { name: 'GitHub',   href: 'https://github.com/nikbearbrown' },
-  { name: 'YouTube',  href: 'https://www.youtube.com/@HumanitariansAI' },
-  { name: 'Substack', href: 'https://humanitarians.substack.com/' },
+const navigation = [
+  { name: 'Madison', href: '/' },
+  { name: 'Brand Audit', href: '/brand-audit' },
+  { name: 'Branding & AI', href: '/branding-ai' },
+  { name: 'Criteria', href: '/criteria' },
+  { name: 'Tools', href: '/tools' },
 ]
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [claudeOpen, setClaudeOpen] = useState(false)
   const pathname = usePathname()
   const menuRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     if (!isMenuOpen) return
-    const handleClickOutside = (e: MouseEvent) => {
-      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
-        setIsMenuOpen(false)
-      }
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) setIsMenuOpen(false)
     }
     document.addEventListener('mousedown', handleClickOutside)
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [isMenuOpen])
 
-  const isActive = (href: string) => {
-    if (href === '/') return pathname === '/'
-    return pathname.startsWith(href)
-  }
-
   return (
-    <header
-      className="sticky top-0 z-50 w-full backdrop-blur supports-[backdrop-filter]:bg-opacity-95"
-      style={{
-        background: 'var(--p-bg)',
-        borderBottom: '1px solid var(--p-border)',
-      }}
-    >
-      <div className="container px-4 md:px-6 mx-auto flex h-14 items-center justify-between">
-        <div className="flex items-center gap-6">
-          <Link
-            href="/"
-            style={{
-              fontFamily: 'var(--font-sans)',
-              fontSize: '16px',
-              fontWeight: 700,
-              letterSpacing: '-0.01em',
-              color: 'var(--p-ink)',
-              textDecoration: 'none',
-            }}
-          >
-            Madison
-            <span style={{ fontWeight: 400, fontSize: '12px', marginLeft: '6px', color: 'var(--p-ink-soft)', letterSpacing: '0.04em', textTransform: 'uppercase' }}>
-              Humanitarians AI
-            </span>
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+      <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
+        <div className="flex items-center gap-6 md:gap-10">
+          <Link href="https://www.humanitarians.ai/" className="flex items-center gap-2" aria-label="Humanitarians AI homepage">
+            <span className="text-xl font-bold tracking-tighter">Humanitarians AI</span>
+            <span className="hidden border-l pl-2 text-xs font-medium uppercase tracking-wider text-muted-foreground sm:inline">Madison</span>
           </Link>
-
-          {/* Primary nav */}
-          <nav className="hidden lg:flex gap-5 items-center">
-            {NAV_ITEMS.map((item) =>
-              item.name === 'Claude' ? (
-                <div
-                  key="Claude"
-                  style={{ position: 'relative' }}
-                  onMouseEnter={() => setClaudeOpen(true)}
-                  onMouseLeave={() => setClaudeOpen(false)}
-                >
-                  <Link
-                    href="/"
-                    style={{
-                      fontFamily: 'var(--font-sans)',
-                      fontSize: '13px',
-                      letterSpacing: '0.02em',
-                      color: isActive('/') || claudeOpen ? 'var(--p-ink)' : 'var(--p-ink-soft)',
-                      textDecoration: 'none',
-                      transition: 'color 0.15s',
-                      ...(isActive('/') ? { fontWeight: 500 } : {}),
-                    }}
-                  >
-                    Claude ▾
-                  </Link>
-                  {claudeOpen && (
-                    <div style={{ position: 'absolute', top: '100%', left: 0, paddingTop: '8px', zIndex: 60 }}>
-                      <div style={{
-                        minWidth: '210px',
-                        background: 'var(--p-bg)',
-                        border: '1px solid var(--p-border-strong)',
-                        borderRadius: '6px',
-                        padding: '8px',
-                        boxShadow: '0 12px 32px rgba(0,0,0,0.18)',
-                      }}>
-                        {CLAUDE_MENU.map((m) => (
-                          <Link
-                            key={m.name}
-                            href={m.href}
-                            style={{
-                              display: 'block',
-                              fontFamily: 'var(--font-sans)',
-                              fontSize: '13px',
-                              color: 'var(--p-ink-soft)',
-                              textDecoration: 'none',
-                              padding: '7px 10px',
-                              borderRadius: '4px',
-                            }}
-                            onMouseEnter={e => { e.currentTarget.style.background = 'var(--p-bg-card)'; e.currentTarget.style.color = 'var(--p-ink)' }}
-                            onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = 'var(--p-ink-soft)' }}
-                          >
-                            {m.name}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              ) : (
+          <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary navigation">
+            {navigation.map((item) => {
+              const active = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href)
+              return (
                 <Link
                   key={item.name}
                   href={item.href}
-                  style={{
-                    fontFamily: 'var(--font-sans)',
-                    fontSize: '13px',
-                    letterSpacing: '0.02em',
-                    color: isActive(item.href) ? 'var(--p-ink)' : 'var(--p-ink-soft)',
-                    textDecoration: 'none',
-                    transition: 'color 0.15s',
-                    ...(isActive(item.href) ? { fontWeight: 500 } : {}),
-                  }}
-                  onMouseEnter={e => (e.currentTarget.style.color = 'var(--p-ink)')}
-                  onMouseLeave={e => (e.currentTarget.style.color = isActive(item.href) ? 'var(--p-ink)' : 'var(--p-ink-soft)')}
+                  className={cn('text-sm font-medium transition-colors hover:text-foreground', active ? 'text-foreground' : 'text-foreground/60')}
                 >
                   {item.name}
                 </Link>
               )
-            )}
+            })}
           </nav>
-
-          {/* Divider + secondary */}
-          <div className="hidden lg:flex items-center gap-4">
-            <span style={{ width: '1px', height: '14px', background: 'var(--p-border-strong)' }} />
-            {SECONDARY_ITEMS.map(item => (
-              <Link
-                key={item.name}
-                href={item.href}
-                style={{
-                  fontFamily: 'var(--font-sans)',
-                  fontSize: '12px',
-                  letterSpacing: '0.02em',
-                  color: 'var(--p-ink-muted)',
-                  textDecoration: 'none',
-                  transition: 'color 0.15s',
-                }}
-                onMouseEnter={e => (e.currentTarget.style.color = 'var(--p-ink)')}
-                onMouseLeave={e => (e.currentTarget.style.color = 'var(--p-ink-muted)')}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
         </div>
 
         <div className="flex items-center gap-3">
-          {/* Social pills — desktop */}
-          <div className="hidden lg:flex items-center gap-2">
-            {SOCIAL_LINKS.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  fontFamily: 'var(--font-sans)',
-                  fontSize: '10px',
-                  letterSpacing: '0.07em',
-                  textTransform: 'uppercase',
-                  color: 'var(--p-ink-muted)',
-                  border: '1px solid var(--p-border-strong)',
-                  background: 'transparent',
-                  borderRadius: '3px',
-                  padding: '4px 9px',
-                  textDecoration: 'none',
-                  transition: 'color 0.15s, border-color 0.15s',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                }}
-                onMouseEnter={e => {
-                  e.currentTarget.style.color = 'var(--p-ink)'
-                  e.currentTarget.style.borderColor = 'var(--p-ink-soft)'
-                }}
-                onMouseLeave={e => {
-                  e.currentTarget.style.color = 'var(--p-ink-muted)'
-                  e.currentTarget.style.borderColor = 'var(--p-border-strong)'
-                }}
-              >
-                {link.name}
-              </a>
-            ))}
+          <div className="hidden items-center gap-3 lg:flex">
+            <a href="https://www.youtube.com/@HumanitariansAI" target="_blank" rel="noopener noreferrer" className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90">
+              YouTube
+            </a>
+            <a href="https://www.humanitarians.ai/donate" target="_blank" rel="noopener noreferrer" className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90">
+              Donate
+            </a>
           </div>
           <ThemeToggle />
           <button
-            className="inline-flex h-9 w-9 items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring lg:hidden"
-            style={{ color: 'var(--p-ink-soft)' }}
+            type="button"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-md transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring lg:hidden"
             aria-label="Toggle menu"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-expanded={isMenuOpen}
+            onClick={() => setIsMenuOpen((open) => !open)}
           >
-            {isMenuOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
+            {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
       </div>
 
-      {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="lg:hidden">
-          <div
-            className="fixed inset-0 z-50 backdrop-blur-sm"
-            style={{ background: 'rgba(61,57,41,0.4)' }}
-            onClick={() => setIsMenuOpen(false)}
-          />
-          <div
-            ref={menuRef}
-            className="fixed inset-x-0 top-14 z-50 mt-px p-6 shadow-lg"
-            style={{ background: 'var(--p-bg)', borderBottom: '1px solid var(--p-border)' }}
-          >
-            <nav className="flex flex-col space-y-4">
-              {[...NAV_ITEMS, ...SECONDARY_ITEMS].map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  style={{
-                    fontFamily: 'var(--font-sans)',
-                    fontSize: '15px',
-                    color: isActive(item.href) ? 'var(--p-ink)' : 'var(--p-ink-soft)',
-                    textDecoration: 'none',
-                  }}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.name}
-                </Link>
-              ))}
-              <div className="flex flex-col gap-3 pt-4" style={{ borderTop: '1px solid var(--p-border)' }}>
-                {SOCIAL_LINKS.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    style={{
-                      fontFamily: 'var(--font-sans)',
-                      fontSize: '13px',
-                      color: 'var(--p-ink-muted)',
-                      textDecoration: 'none',
-                    }}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {link.name}
-                  </a>
-                ))}
-              </div>
-            </nav>
-          </div>
+        <div ref={menuRef} className="border-t bg-background p-6 shadow-lg lg:hidden">
+          <nav className="flex flex-col gap-4" aria-label="Mobile navigation">
+            {navigation.map((item) => (
+              <Link key={item.name} href={item.href} className="text-base font-medium" onClick={() => setIsMenuOpen(false)}>
+                {item.name}
+              </Link>
+            ))}
+            <a href="https://www.youtube.com/@HumanitariansAI" target="_blank" rel="noopener noreferrer" className="text-base font-medium">YouTube</a>
+            <a href="https://www.humanitarians.ai/donate" target="_blank" rel="noopener noreferrer" className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground">Donate</a>
+          </nav>
         </div>
       )}
     </header>

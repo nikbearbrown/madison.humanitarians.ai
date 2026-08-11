@@ -308,3 +308,10 @@ The Vercel build reads the committed JSON file — no GitHub API calls at build 
 
 ## Standing instructions
 After every session, update CLAUDE.md to reflect any changes (check `git log` and `git diff` — do not ask).
+
+## Madison Humanitarians AI alignment (2026-08-10)
+
+- The Madison homepage and shared header follow the canonical Humanitarians AI visual system from `books/humanitarians_html`: white-first surfaces, Inter typography, obsidian text, blood-red actions, warm muted sections, and compact rounded cards.
+- Madison remains the product name, but it is presented as a Humanitarians AI project rather than as an independent visual identity.
+- The homepage keeps Madison's govern → execute → verify product story while using the Humanitarians AI page rhythm, container widths, buttons, navigation treatment, and semantic Tailwind color tokens.
+- Do not reintroduce black editorial hero panels, Georgia display typography, hardcoded color values, or a standalone `Madison.` wordmark.
