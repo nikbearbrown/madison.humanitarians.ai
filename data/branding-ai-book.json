@@ -1,0 +1,211 @@
+{
+  "title": "Branding and AI",
+  "tagline": "When the cost of building collapses, the value of knowing what to build rises.",
+  "description": "A textbook for the creative engineer — the person who can both build the thing and say what it means. It opens with a number: in a controlled experiment at Microsoft Research, ninety-five professional developers were given the same task and half were handed GitHub Copilot. The control group took 161 minutes; the Copilot group took 71. A 56% collapse in the cost of building. That collapse is the premise of the whole book. When production gets cheap, judgment gets expensive — and brand is the discipline of judgment. Nineteen chapters work through what a brand actually is, how it is built, measured, governed, and lost, each anchored in a real case rather than a framework poster. Four Ship It appendices then turn the argument into a working product on Madison: scope it, pipeline it, decide where the AI decides, and put a face on it.",
+  "sections": [
+    {
+      "id": "introduction",
+      "kind": "front",
+      "number": null,
+      "title": "Introduction",
+      "slug": "00-introduction",
+      "description": "What the book is, what it is not, and the idea running through it. Sets up Madison — the AI you run yourself — and explains how the chapters and the Ship It appendices fit together."
+    },
+    {
+      "id": "ch01",
+      "kind": "chapter",
+      "number": 1,
+      "title": "The Creative Engineer",
+      "slug": "01-the-creative-engineer",
+      "description": "The role that appears when building stops being the bottleneck. Michael Spence's signaling mechanism explains why a brand is economically real; four verbs and twelve archetypes give the creative engineer something to actually do with that."
+    },
+    {
+      "id": "ch02",
+      "kind": "chapter",
+      "number": 2,
+      "title": "What a Brand Is: Equity & Assets",
+      "slug": "02-what-a-brand-is-equity",
+      "description": "Kraft paid roughly £11.5 billion for Cadbury, and a large share of it bought nothing you can point at. The behavioral test: same acetaminophen, two bottles, two prices. Keller's pyramid, Aaker's four levers, and how to put a number on it."
+    },
+    {
+      "id": "ch03",
+      "kind": "chapter",
+      "number": 3,
+      "title": "The AI Toolchain: Cowork, Codex & Madison",
+      "slug": "03-the-ai-toolchain-cowork-codex-madison",
+      "description": "Two teams, the same frontier model: one builds Cursor, the other builds Devin. Opposite products, opposite theories of what the human is for. The difference is architecture — where you put the seams — and architecture is brand."
+    },
+    {
+      "id": "ch04",
+      "kind": "chapter",
+      "number": 4,
+      "title": "The Brand Audience",
+      "slug": "04-the-brand-audience",
+      "description": "A founder whose app was \"for everyone with a smartphone\" had a beautiful product and no traction. Segmentation, targeting and positioning; Jobs To Be Done; the cultural lens; and personas treated as research rather than fiction."
+    },
+    {
+      "id": "ch05",
+      "kind": "chapter",
+      "number": 5,
+      "title": "Brand Archetypes as a System",
+      "slug": "05-brand-archetypes-as-a-system",
+      "description": "Tropicana, Gap, New Coke — brands rarely fail by running out of money. They fail by changing what was working, because nobody in the room could see the recognition asset. The archetype is the cheapest consistency-enforcement device available."
+    },
+    {
+      "id": "ch06",
+      "kind": "chapter",
+      "number": 6,
+      "title": "Brand Strategy & Positioning",
+      "slug": "06-brand-strategy-and-positioning",
+      "description": "Read everything Stripe has published and ask what its brand is. The answer is not what it built — it is what it declined to build, refusal stacked on refusal for fifteen years until the company looked inevitable from the outside."
+    },
+    {
+      "id": "ch07",
+      "kind": "chapter",
+      "number": 7,
+      "title": "Brand Architecture & Portfolio",
+      "slug": "07-brand-architecture-and-portfolio",
+      "description": "P&G is invisible behind Tide and Gillette; Waymo keeps its distance from Google. Both are deliberate structural decisions. The relationship spectrum, sub-brands and endorsements, extension risk, co-branding, and why pruning is strategy."
+    },
+    {
+      "id": "ch08",
+      "kind": "chapter",
+      "number": 8,
+      "title": "Naming, Trademark & Brand Protection",
+      "slug": "08-naming-trademark-and-brand-protection",
+      "description": "Six months and a chunk of seed money, undone by a cease-and-desist that a search would have caught. The distinctiveness spectrum, likelihood of confusion, clearance before commitment — and the sharp line around what AI cannot clear for you."
+    },
+    {
+      "id": "ch09",
+      "kind": "chapter",
+      "number": 9,
+      "title": "Visual Identity Systems",
+      "slug": "09-visual-identity-systems",
+      "description": "Pepsi's redesign came with a 27-page rationale invoking the Golden Ratio, the Parthenon and the Mona Lisa. It became famous as a document about having nothing to say — what design looks like when the brand never committed to anything specific enough to express."
+    },
+    {
+      "id": "ch10",
+      "kind": "chapter",
+      "number": 10,
+      "title": "Brand Voice & Storytelling",
+      "slug": "10-brand-voice-and-storytelling",
+      "description": "\"I built a pipeline in n8n that processes competitor RSS feeds.\" Every word true; none of it a story. Three frameworks and one constraint, what the archetype commits your voice to, and six story types with the places each belongs."
+    },
+    {
+      "id": "ch11",
+      "kind": "chapter",
+      "number": 11,
+      "title": "Brand Experience & Touchpoints",
+      "slug": "11-brand-experience-and-touchpoints",
+      "description": "Customers never read the strategy deck. They meet the 6 AM password email and the support agent who cannot see what the last one did. Journey mapping, moments of truth, and why equity is usually lost in the touchpoints nobody designed."
+    },
+    {
+      "id": "ch12",
+      "kind": "chapter",
+      "number": 12,
+      "title": "Content, Media & Campaigns",
+      "slug": "12-content-media-and-campaigns",
+      "description": "Suppose you could produce a thousand competent posts for the price of one. You would almost certainly be worse off. What becomes scarce once fluent, on-trend, generic copy is free — and how to build campaigns around the scarce thing."
+    },
+    {
+      "id": "ch13",
+      "kind": "chapter",
+      "number": 13,
+      "title": "Measuring Brand Equity & Impact",
+      "slug": "13-measuring-brand-equity-and-impact",
+      "description": "After the Kendall Jenner ad, Pepsi's tracking showed four numbers moving in four directions at once, and every reporter reached for one of them. Brand tracking, the limits of NPS, the attribution problem, and telling vanity metrics from value."
+    },
+    {
+      "id": "ch14",
+      "kind": "chapter",
+      "number": 14,
+      "title": "Brand Management, Governance & Rebranding",
+      "slug": "14-brand-management-governance-and-rebranding",
+      "description": "Nobody decides to destroy a brand. Someone just grabs a slightly-off blue at 4 p.m. on a Friday because the right one is buried. Guidelines that live, drift versus intentional variation, refresh versus rebrand, and migration risk."
+    },
+    {
+      "id": "ch15",
+      "kind": "chapter",
+      "number": 15,
+      "title": "Brand Ethics, Purpose & Sustainability",
+      "slug": "15-brand-ethics-purpose-and-sustainability",
+      "description": "Patagonia bought a Black Friday full-pager reading \"Don't Buy This Jacket\" — from a company whose revenue depends on people buying jackets. A purpose you will not pay for is a slogan, and a green claim you cannot prove is now a fine."
+    },
+    {
+      "id": "ch16",
+      "kind": "chapter",
+      "number": 16,
+      "title": "Crisis & Reputation Management",
+      "slug": "16-crisis-and-reputation-management",
+      "description": "October 1982: seven dead in Chicago, and Johnson & Johnson pulls 31 million bottles nationwide at a cost of $100 million that no financial model could justify. Matching response to crisis type, the playbook, and speed versus wrong-speed."
+    },
+    {
+      "id": "ch17",
+      "kind": "chapter",
+      "number": 17,
+      "title": "Global & Cross-Cultural Branding",
+      "slug": "17-global-and-cross-cultural-branding",
+      "description": "Crossing a border does not move a product; it moves a set of associations built inside one culture's reference points into another's. Standardize or adapt, translation versus transcreation, what stays global, and a file full of blunders."
+    },
+    {
+      "id": "ch18",
+      "kind": "chapter",
+      "number": 18,
+      "title": "Portfolio as Product",
+      "slug": "18-portfolio-as-product",
+      "description": "Brittany Chiang published a portfolio redesign in 2017 and left the code open. Years later the repo was still generating impressions, recognition and implicit credibility. An asset built once that kept paying — and how to build one deliberately."
+    },
+    {
+      "id": "ch19",
+      "kind": "chapter",
+      "number": 19,
+      "title": "Professional Presence and Launch",
+      "slug": "19-professional-presence-and-launch",
+      "description": "Three founders walked into Y Combinator with air mattresses and a history of selling branded cereal. The coherence principle applied to you: two resumes and one identity, social surfaces, the final presentation, and building for after."
+    },
+    {
+      "id": "s1",
+      "kind": "appendix",
+      "number": null,
+      "label": "Ship It — S1",
+      "title": "Product Requirements and Scope",
+      "slug": "20-shipit-product-requirements-and-scope",
+      "description": "The $100,000 no. What a PRD actually is, what \"minimum viable product\" actually means, Linear's scope discipline as an identity rather than a process — and Madison read back as a PRD."
+    },
+    {
+      "id": "s2",
+      "kind": "appendix",
+      "number": null,
+      "label": "Ship It — S2",
+      "title": "Pipelines & Workflow on Madison",
+      "slug": "21-shipit-pipelines-and-workflow-on-madison",
+      "description": "Reddit changed its API price and Apollo's bill went to roughly $20 million a year overnight. Every external dependency is a contract, and every contract will change. Building pipelines that survive the change."
+    },
+    {
+      "id": "s3",
+      "kind": "appendix",
+      "number": null,
+      "label": "Ship It — S3",
+      "title": "AI Intelligence and Multi-Agent Systems",
+      "slug": "22-shipit-ai-intelligence-and-multiagent-systems",
+      "description": "Why AutoGPT cost $80 and delivered nothing while Cursor earns production trust. Same models, opposite architectures — the hardest design decision is where the AI decides and where a deterministic system does."
+    },
+    {
+      "id": "s4",
+      "kind": "appendix",
+      "number": null,
+      "label": "Ship It — S4",
+      "title": "Interface Design and Deployment",
+      "slug": "23-shipit-interface-and-deployment",
+      "description": "Bard's demo video got one fact about the James Webb telescope wrong and Alphabet shed roughly $100 billion by close of trading. The interface is a contract the user re-checks every session. Streamlit versus Gradio, then deployment."
+    },
+    {
+      "id": "themes",
+      "kind": "back",
+      "number": null,
+      "title": "The Fundamental Themes",
+      "slug": "97-fundamental-themes",
+      "description": "The argument underneath the book: friction, phase gates, and humans plus AI. Learning is a biological event triggered by productive difficulty — which is exactly what makes the division of labor between human and machine a design decision, not a convenience."
+    }
+  ]
+}
