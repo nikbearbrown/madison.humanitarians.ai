@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 const navigation = [
   { name: 'Brand Audit', href: '/brand-audit' },
   { name: 'Branding & AI', href: '/branding-ai' },
-  { name: 'Brand Guidelines', href: '/brand-guidelines' },
+  { name: 'Brand Guidebook', href: '/brand-guidebook' },
 ]
 
 export default function Header() {
