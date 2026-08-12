@@ -34,4 +34,12 @@ next-env.d.ts
 
 # OS generated files
 Thumbs.db
-ehthumbs.db 
+ehthumbs.db
+
+# Design scratch — not for deployment
+_mocks/
+
+# InDesign source files under public/ are world-downloadable once deployed.
+# Keep only the PDF (the intended download); exclude the editable sources.
+public/brand-guidebook/*.indd
+public/brand-guidebook/*.idml

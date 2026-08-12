@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Listing Criteria — Bear Brown Plugin Directory',
-  description: 'What we test, what fails, and why breadth is not the goal. Published selection criteria and rejection reasons for the Bear Brown Claude plugin directory.',
+  title: 'Criteria — Madison Brand Audit',
+  description: 'What we verify, what fails, and why a verdict must be earned. The brand compliance criteria behind every Madison CLEARED, DEFERRED, and REJECT verdict.',
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -79,128 +79,128 @@ export default function CriteriaPage() {
           fontSize: '11px',
           letterSpacing: '0.12em',
           textTransform: 'uppercase',
-          color: 'var(--p-terra)',
+          color: 'var(--hai-blood-red)',
+          fontWeight: 700,
           marginBottom: '20px',
         }}>
-          Listing Criteria
+          Criteria
         </p>
         <h1 style={{
           fontFamily: 'var(--font-serif)',
           fontSize: 'clamp(32px, 5vw, 48px)',
-          fontWeight: 400,
+          fontWeight: 700,
           color: 'var(--p-ink)',
           lineHeight: 1.1,
           marginBottom: '24px',
         }}>
-          What we test, what fails,<br />and why breadth is not the goal.
+          What we verify, what fails,<br />and why a verdict must be earned.
         </h1>
         <Body>
-          Every listing in this directory has been tested against the same checklist, at a recorded commit sha, before it goes up. The criteria are public so you can reproduce any audit yourself — and so we have nowhere to hide when we're wrong.
+          These are the criteria the Madison brand audit applies — palette, voice, iconography, and claims. The audit toolset is in development; no public run records exist yet. This page documents what each check scores and what triggers a REJECT so the standards are visible before the first audit ships. When verdicts are published, each will cite the run that produced it. Until then, this is the spec.
         </Body>
 
         <hr style={{ border: 'none', borderTop: '1px solid var(--p-border)', margin: '40px 0' }} />
 
-        <Section title="The install check">
+        <Section title="The palette check">
           <Body>
-            We clone the repo, add it as a plugin marketplace source, and run the install. An entry that cannot be installed does not ship — regardless of how interesting the idea is. We record the HEAD sha at install time. If the plugin later ships a breaking change, the audit date tells you exactly which version we tested.
+            Every color in the output is measured against the locked palette definition in the brand constitution. A color is CLEARED if it matches within the defined tolerance. A color that falls outside the palette — even if it looks close — is a REJECT with the specific off-palette value and the nearest locked alternative returned as the fix.
           </Body>
           <Body>
-            For plugins that require Node or Python, we verify the declared runtime is available in a standard environment. Plugins that silently degrade without stating so are flagged.
+            Colorblind-safe is a required property of every palette entry. If the brand constitution does not declare WCAG contrast ratios for each color pair, the check flags the gap rather than inventing a passing number.
           </Body>
           <div style={{ background: 'var(--p-bg-card)', borderRadius: '6px', padding: '0 16px', border: '1px solid var(--p-border)', marginTop: '16px' }}>
-            <Check result="pass">Installs from a published marketplace source or a documented manual path</Check>
-            <Check result="pass">All declared runtime dependencies are stated in the README</Check>
-            <Check result="fail">Install fails silently or produces an error the README does not mention</Check>
-            <Check result="fail">Requires credentials at install time without a secure documented path</Check>
+            <Check result="pass">All colors match the locked palette within the declared tolerance</Check>
+            <Check result="pass">Colorblind-safe pairs are declared and the output respects them</Check>
+            <Check result="fail">A color falls outside the palette without a declared exception</Check>
+            <Check result="fail">Contrast ratio undeclared for a color pair used in the output</Check>
           </div>
         </Section>
 
-        <Section title="The risk scan">
+        <Section title="The voice check">
           <Body>
-            We read every hook script that fires at runtime (SessionStart, SubagentStart, UserPromptSubmit, PostToolUse, Stop). We look for outbound network calls, filesystem writes outside the plugin's own directory, and any exec or eval patterns that could run attacker-controlled code.
+            We score the output against the voice register declared in the brand constitution — reading level, sentence structure, prohibited phrases, and register (e.g. direct/sardonic vs warm/collegiate). Drift into generic marketing tone is a REJECT, not a DEFERRED.
           </Body>
           <Body>
-            "Clean" means none of the above. "Flagged" means something is present but disclosed — documented in the README, gated on an env var the user sets, or limited to a specific opt-in command. Flagged is not excluded; it is disclosed. Silent telemetry or undisclosed network calls that we cannot attribute to disclosed behavior result in exclusion.
+            A &ldquo;clean&rdquo; voice result means no superlatives, no brand-register violations, and no phrases explicitly prohibited in the constitution. A &ldquo;flagged&rdquo; result means an edge case the automated check cannot score — returned as DEFERRED for human review.
           </Body>
           <div style={{ background: 'var(--p-bg-card)', borderRadius: '6px', padding: '0 16px', border: '1px solid var(--p-border)', marginTop: '16px' }}>
-            <Check result="pass">Hooks are entirely local — no outbound calls at runtime</Check>
-            <Check result="note">Outbound calls exist but are documented, scoped, and opt-outable</Check>
-            <Check result="fail">Network calls fire silently without disclosure in the README</Check>
-            <Check result="fail">Hooks write to arbitrary filesystem paths or exec dynamic strings</Check>
+            <Check result="pass">Register matches the declared voice profile throughout</Check>
+            <Check result="note">Edge case — needs human review; returned as DEFERRED</Check>
+            <Check result="fail">Superlative or prohibited phrase found — specific instance returned with fix</Check>
+            <Check result="fail">Register drifts to generic marketing tone not declared in the constitution</Check>
           </div>
         </Section>
 
-        <Section title="Prose-to-code ratio">
+        <Section title="The iconography check">
           <Body>
-            We count lines in <code style={{ fontFamily: 'monospace', fontSize: '13px', background: 'var(--p-bg-card)', padding: '1px 5px', borderRadius: '2px' }}>.md/.txt</code> files (prose) and lines in <code style={{ fontFamily: 'monospace', fontSize: '13px', background: 'var(--p-bg-card)', padding: '1px 5px', borderRadius: '2px' }}>.ts/.js/.py/.sh</code> files (code). This number is not a quality gate — it is a signal. High ratios often indicate prompt-heavy plugins with little backing behavior; low ratios often indicate code-backed plugins that do real work in the runtime. We publish the number and let the verdict explain it.
+            Iconography style — line weight, fill convention, corner radius, metaphor vocabulary — is scored against the constitution&rsquo;s declared icon style. Stock-icon aesthetics not declared in the constitution are a REJECT. The check returns the specific icon, the declared style it violated, and a prompt for a replacement.
           </Body>
         </Section>
 
-        <Section title="Benchmark claims">
+        <Section title="Claims and proof">
           <Body>
-            We read the README for quantitative claims. If a plugin claims a specific improvement — tokens saved, lines reduced, tasks completed — we check whether the baseline and methodology are stated. We note retractions prominently. A retraction that is honest and well-documented is a positive signal, not a negative one.
+            We read the output for quantitative claims. If copy asserts a specific improvement — conversion lift, performance gain, engagement increase — we check whether the backing evidence is stated or the claim is undeclared. Undeclared quantitative claims return DEFERRED for human sign-off. Flat superlatives (&ldquo;the best,&rdquo; &ldquo;industry-leading&rdquo;) with no declared exception are a REJECT.
           </Body>
           <Body>
-            Our research background influences what we look for: ensemble signals, technical audit pipelines, cluster verification. We apply those methods to the plugins themselves.
+            Our research background shapes what we look for: baseline visibility, methodology disclosure, claim scope. We apply those standards to the brand assets themselves.
           </Body>
         </Section>
 
-        <Section title="Tiers">
+        <Section title="Verdicts">
           <Body>
-            Tiers are derived from the audit fields, not hand-waved. We do not award Excellent to a plugin with a failed install check or an undisclosed network call.
+            Verdicts are derived from the check results, not asserted. A CLEARED verdict requires every scored constraint to pass. A single constraint failure is a REJECT — with the failing constraint and its fix returned. DEFERRED means the check cannot score it automatically and human review is required.
           </Body>
           <div style={{ background: 'var(--p-bg-card)', borderRadius: '6px', padding: '16px 20px', border: '1px solid var(--p-border)', marginTop: '16px' }}>
             {[
-              { tier: 'Excellent ◆', color: '#0072B2', desc: 'Clean install, clean or flagged-and-disclosed risk scan, code-backed behavior, honest benchmark claims, actively maintained.' },
-              { tier: 'Strong ●',    color: '#3D3929', desc: 'Clean install, disclosed risk signals if any, useful backing behavior, reliable maintenance signal.' },
-              { tier: 'Promising ▲', color: '#D55E00', desc: 'Installs, passes the risk scan, shows a clear use case — but early, limited scope, or lighter documentation.' },
+              { tier: 'CLEARED', color: '#128263', desc: 'All checked constraints pass — palette in range, voice in register, iconography in style, claims declared.' },
+              { tier: 'DEFERRED', color: '#8a6a1f', desc: 'One or more constraints cannot be scored automatically — returned for human review with the specific constraint flagged.' },
+              { tier: 'REJECT', color: '#7A0000', desc: 'One or more constraints failed — returned with the specific violation and a corrective fix for each.' },
             ].map(({ tier, color, desc }) => (
               <div key={tier} style={{ marginBottom: '16px', paddingBottom: '16px', borderBottom: '1px solid var(--p-border)' }}>
-                <p style={{ fontFamily: 'var(--font-sans)', fontSize: '12px', fontWeight: 700, color, letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: '4px' }}>{tier}</p>
+                <p style={{ fontFamily: 'ui-monospace, Menlo, monospace', fontSize: '12px', fontWeight: 700, color, letterSpacing: '0.07em', marginBottom: '4px' }}>{tier}</p>
                 <p style={{ fontFamily: 'var(--font-sans)', fontSize: '14px', lineHeight: 1.6, color: 'var(--p-ink-soft)', margin: 0 }}>{desc}</p>
               </div>
             ))}
             <p style={{ fontFamily: 'var(--font-sans)', fontSize: '12px', color: 'var(--p-ink-muted)', margin: 0 }}>
-              Tiers coexist with shape + label in every display. The greyscale gate: desaturate any page and tiers must still be distinguishable by shape.
+              Every verdict is per-constraint. An asset can CLEAR the palette check and REJECT the voice check in the same run.
             </p>
           </div>
         </Section>
 
         <Section title="What fails outright">
           <Body>
-            These are automatic exclusions — no tier, no listing:
+            These are automatic REJECTs — no partial credit, no DEFERRED fallback:
           </Body>
           <div style={{ background: 'var(--p-bg-card)', borderRadius: '6px', padding: '0 16px', border: '1px solid var(--p-border)' }}>
-            <Check result="fail">Install fails or produces an error not addressed by the README</Check>
-            <Check result="fail">Silent outbound network calls without README disclosure</Check>
-            <Check result="fail">Hooks that exec dynamic strings or write to arbitrary paths</Check>
-            <Check result="fail">Benchmark headline numbers whose baseline is not stated</Check>
-            <Check result="fail">Repos that have been archived, deleted, or untouched for 18+ months</Check>
+            <Check result="fail">An off-palette color with no declared exception in the brand constitution</Check>
+            <Check result="fail">A superlative or prohibited phrase with no declared exception</Check>
+            <Check result="fail">An iconography style not declared in the constitution</Check>
+            <Check result="fail">A quantitative claim with no baseline or source stated</Check>
+            <Check result="fail">A brand constitution that contradicts itself — flagged before any asset is scored</Check>
           </div>
         </Section>
 
-        <Section title="Why breadth is not the goal">
+        <Section title="Why a verdict must be earned">
           <Body>
-            The large Claude plugin directories index tens of thousands of repos. The claim is discovery by volume. Our claim is different: we will list fewer things, and we will be correct about the ones we list.
+            Generic AI tools say &ldquo;looks good.&rdquo; Madison does not. The design rule is that a CLEARED verdict requires every scored constraint to pass. If Madison cannot score a constraint it says DEFERRED — it does not round up to CLEARED.
           </Body>
           <Body>
-            A curated directory with three entries and three completed audits is more useful than an index of fifty thousand repos with no verification. We grow the list when we have time to audit properly — not to fill a grid.
+            A brand constitution with three locked constraints and three verified CLEAREDs is more trustworthy than a tool that waves everything through. Madison grows the check list when the verification logic is sound — not to fill a grid.
           </Body>
           <Body>
-            If you have a plugin that you believe should be listed, we will audit it on the same criteria and publish the results either way.
+            The audit system is not yet live. No run records exist to cite today. The criteria on this page are the standard future verdicts will be held to — stated here so the bar is visible and fixed before the first audit ships, not set retroactively to match what was convenient.
           </Body>
-          <p style={{
-            fontFamily: 'var(--font-sans)',
-            fontSize: '14px',
-            color: 'var(--p-ink-soft)',
-          }}>
-            <a href="mailto:bear@bearbrown.co" style={{ color: 'var(--p-blue)', textDecoration: 'none' }}>bear@bearbrown.co</a> — submit for audit
+          <Body>
+            If you want to submit a brand asset for audit or propose a constraint type, contact us. When the system is live, audits will be run on the same criteria and the results published either way.
+          </Body>
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: '14px', color: 'var(--p-ink-soft)' }}>
+            <a href="mailto:bear@humanitarians.ai" style={{ color: 'var(--p-blue)', textDecoration: 'none' }}>bear@humanitarians.ai</a> — submit for audit
           </p>
         </Section>
 
         <div style={{ paddingTop: '24px', borderTop: '1px solid var(--p-border)' }}>
-          <Link href="/" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', color: 'var(--p-blue)', textDecoration: 'none' }}>
-            ← Back to directory
+          <Link href="/brand-audit" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', color: 'var(--p-blue)', textDecoration: 'none' }}>
+            ← Back to brand audit
           </Link>
         </div>
       </div>
