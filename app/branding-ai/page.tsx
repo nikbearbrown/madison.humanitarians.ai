@@ -1,42 +1,106 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
+import bookData from '@/data/branding-ai-book.json'
 
 export const metadata: Metadata = {
-  title: 'Branding & AI — Madison',
-  description: 'INFO 7375 at Northeastern — the curriculum that produced the Madison tools. Branding theory meets agentic AI in a hands-on course taught by Nik Bear Brown.',
+  title: 'Branding and AI — Madison',
+  description: bookData.description.slice(0, 155),
+}
+
+type Section = (typeof bookData.sections)[number]
+
+function eyebrow(s: Section): string {
+  if (s.label) return s.label
+  if (s.number !== null) return `Chapter ${s.number}`
+  if (s.kind === 'front') return 'Opening'
+  if (s.kind === 'back') return 'Closing'
+  return s.kind
+}
+
+function SectionCard({ s }: { s: Section }) {
+  return (
+    <article className="rounded-lg border bg-background p-6 flex flex-col gap-3">
+      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary">
+        {eyebrow(s)}
+      </p>
+      <h3 className="text-lg font-bold leading-snug">{s.title}</h3>
+      <p className="text-sm text-muted-foreground leading-relaxed">{s.description}</p>
+    </article>
+  )
+}
+
+function GroupHeading({ label, count }: { label: string; count: number }) {
+  return (
+    <div className="mb-6 flex items-baseline gap-4">
+      <h2 className="text-2xl font-bold tracking-tight">{label}</h2>
+      <span className="text-sm text-muted-foreground">{count} section{count !== 1 ? 's' : ''}</span>
+    </div>
+  )
 }
 
 export default function BrandingAIPage() {
+  const main = bookData.sections.filter((s) => s.kind === 'front' || s.kind === 'chapter')
+  const shipIt = bookData.sections.filter((s) => s.kind === 'appendix')
+  const closing = bookData.sections.filter((s) => s.kind === 'back')
+
   return (
-    <div style={{ background: 'var(--p-bg)', minHeight: '100vh' }}>
-      <div style={{ maxWidth: '760px', margin: '0 auto', padding: 'clamp(48px, 7vw, 96px) clamp(24px, 5vw, 48px)' }}>
+    <div className="flex w-full flex-col bg-background text-foreground">
 
-        <p style={{ fontFamily: 'var(--font-sans)', fontSize: '11px', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--hai-blood-red)', fontWeight: 700, marginBottom: '20px' }}>
-          Branding & AI
-        </p>
-        <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(32px, 5vw, 48px)', fontWeight: 700, color: 'var(--p-ink)', lineHeight: 1.1, marginBottom: '24px' }}>
-          The course that built the tools.
-        </h1>
-        <p style={{ fontFamily: 'var(--font-sans)', fontSize: '17px', lineHeight: 1.75, color: 'var(--p-ink-soft)', maxWidth: '620px', marginBottom: '20px' }}>
-          INFO 7375 — Branding and AI — is taught by Nik Bear Brown at Northeastern University. The course covers 19 chapters of branding theory (archetypes, JTBD, voice, measurement, ethics) and asks students to build working agentic tools at every step. Those tools are the source of the Madison Skills, auditors, and verifiers listed on this site.
-        </p>
-        <p style={{ fontFamily: 'var(--font-sans)', fontSize: '15px', lineHeight: 1.75, color: 'var(--p-ink-soft)', maxWidth: '620px', marginBottom: '32px' }}>
-          The curriculum page — chapter list, assignments, the brand sub-domain taxonomy, and links to the course tools that produced each section — is in development. This page will expand as the course materials are published here.
-        </p>
-
-        <div style={{ background: 'var(--p-bg-card)', border: '1px solid var(--p-border)', borderRadius: '10px', padding: '20px 24px', marginBottom: '32px' }}>
-          <p style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', fontWeight: 700, color: 'var(--p-ink)', marginBottom: '8px', letterSpacing: '0.04em', textTransform: 'uppercase' }}>
-            In development
-          </p>
-          <p style={{ fontFamily: 'var(--font-sans)', fontSize: '15px', color: 'var(--p-ink-soft)', lineHeight: 1.7, margin: 0 }}>
-            Course chapter pages, assignment outputs, and the full tool catalog organized by brand sub-domain are being assembled. The 19-chapter arc — from brand strategy and archetypes through measurement, ethics, and crisis — will be surfaced here as pages are ready.
-          </p>
+      {/* Hero */}
+      <section className="w-full py-12 md:py-20 lg:py-24">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="max-w-[820px] space-y-6">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
+              Branding & AI · A Textbook
+            </p>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl/none">
+              {bookData.title}
+            </h1>
+            <p className="text-lg text-muted-foreground md:text-xl max-w-[680px] italic">
+              &ldquo;{bookData.tagline}&rdquo;
+            </p>
+            <p className="text-base text-muted-foreground max-w-[680px] leading-relaxed">
+              {bookData.description}
+            </p>
+          </div>
         </div>
+      </section>
 
-        <Link href="/" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', color: 'var(--p-blue)', textDecoration: 'none' }}>
-          ← Back to Roll your own
-        </Link>
-      </div>
+      {/* Main sequence */}
+      <section className="w-full bg-muted py-12 md:py-16">
+        <div className="container mx-auto px-4 md:px-6">
+          <GroupHeading label="Chapters" count={main.length} />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {main.map((s) => <SectionCard key={s.id} s={s} />)}
+          </div>
+        </div>
+      </section>
+
+      {/* Ship It appendices */}
+      <section className="w-full py-12 md:py-16">
+        <div className="container mx-auto px-4 md:px-6">
+          <GroupHeading label="Ship It" count={shipIt.length} />
+          <p className="mb-8 max-w-[640px] text-muted-foreground">
+            Four hands-on appendices that turn the argument into a working product on Madison:
+            scope it, pipeline it, decide where the AI decides, and deploy it.
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {shipIt.map((s) => <SectionCard key={s.id} s={s} />)}
+          </div>
+        </div>
+      </section>
+
+      {/* Closing */}
+      {closing.length > 0 && (
+        <section className="w-full bg-muted py-12 md:py-16">
+          <div className="container mx-auto px-4 md:px-6">
+            <GroupHeading label="Themes" count={closing.length} />
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {closing.map((s) => <SectionCard key={s.id} s={s} />)}
+            </div>
+          </div>
+        </section>
+      )}
+
     </div>
   )
 }
