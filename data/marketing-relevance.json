@@ -1,0 +1,5658 @@
+[
+  {
+    "slug": "1c-syntax__claude-code-bsl-lsp",
+    "type": "unknown",
+    "name": "bsl-language-server",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "gomarble-ai__marketing-agent",
+    "type": "skill",
+    "name": "marketing-agent",
+    "relevant": true,
+    "reason": "marketing",
+    "category": "content"
+  },
+  {
+    "slug": "gomboc-ai__gomboc-community-skills",
+    "type": "skill",
+    "name": "gomboc-community",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "gondola-ai__gondola-mcp",
+    "type": "plugin",
+    "name": "gondola",
+    "relevant": true,
+    "reason": "award flight",
+    "category": "platform"
+  },
+  {
+    "slug": "gonzaloserrano__gopilot",
+    "type": "skill",
+    "name": "gopilot",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "goodnight77__rag-skills",
+    "type": "skill",
+    "name": "rag-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "googlechrome__modern-web-guidance",
+    "type": "skill",
+    "name": "modern-web-guidance",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "googlecloudplatform__cloud-bigtable-ecosystem",
+    "type": "skill",
+    "name": "bigtable",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "gopigment__ai-plugins",
+    "type": "skill",
+    "name": "pigment",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "greekr4__playwright-bot-bypass",
+    "type": "skill",
+    "name": "playwright-bot-bypass",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "green-pt__honey-for-devs",
+    "type": "skill",
+    "name": "honey",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "greensock__gsap-skills",
+    "type": "skill",
+    "name": "gsap-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "greenstevester__fastlane-skill",
+    "type": "skill",
+    "name": "fastlane-skill",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "griffinwork40__agent-framework",
+    "type": "skill",
+    "name": "agent-workflow-amplifiers",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "grinrus__ai_driven_dev",
+    "type": "skill",
+    "name": "feature-dev-aidd",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "growilabs__growi-mcp-server",
+    "type": "skill",
+    "name": "mcp-client-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "growthbook__skills",
+    "type": "skill",
+    "name": "growthbook",
+    "relevant": true,
+    "reason": "ab-testing",
+    "category": "research"
+  },
+  {
+    "slug": "gskuza__babok_analyst",
+    "type": "hook",
+    "name": "babok_analyst",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "gtrabanco__agentic-workflow",
+    "type": "skill",
+    "name": "agentic-workflow",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "guanyang__antigravity-skills",
+    "type": "plugin",
+    "name": "open-agent-hub",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "guanyang__super-publisher",
+    "type": "skill",
+    "name": "super-publisher",
+    "relevant": true,
+    "reason": "content publishing",
+    "category": "content"
+  },
+  {
+    "slug": "guhcostan__claude-mega-brain",
+    "type": "skill",
+    "name": "mega-brain",
+    "relevant": true,
+    "reason": "knowledge base",
+    "category": "productivity"
+  },
+  {
+    "slug": "guimatheus92__mcp-video-analyzer",
+    "type": "skill",
+    "name": "video",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "guinacio__claude-image-gen",
+    "type": "skill",
+    "name": "media-pipeline",
+    "relevant": true,
+    "reason": "content creation",
+    "category": "content"
+  },
+  {
+    "slug": "gwatts__claude-compound-bash",
+    "type": "plugin",
+    "name": "compound-bash",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "gwittebolle__claude-carbon",
+    "type": "skill",
+    "name": "claude-carbon",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "gylove1994__superpowers-deepseek-v4",
+    "type": "skill",
+    "name": "superpowers-deepseek-v4",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "gyuch-an02__claude-omakase",
+    "type": "skill",
+    "name": "claude-omakase",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "gzupark__claude-plugin-pack",
+    "type": "skill",
+    "name": "claude-plugin-pack",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "h0ngcha0__hubo",
+    "type": "skill",
+    "name": "hubo",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "habib0x0__spec-driven-plugin",
+    "type": "command",
+    "name": "spec-driven",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hadamyeedady12-dev__claude-ultimate-hud",
+    "type": "skill",
+    "name": "claude-ultimate-hud",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "haenara-shin__codex-hud",
+    "type": "plugin",
+    "name": "codex-hud",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hamzafer__claude-routines",
+    "type": "skill",
+    "name": "routines",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hank9999__claude-qq-channel",
+    "type": "skill",
+    "name": "qqbot",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "haowjy__orchestrate",
+    "type": "skill",
+    "name": "orchestrate",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "haoyiyin__instant-site",
+    "type": "skill",
+    "name": "instant-site",
+    "relevant": true,
+    "reason": "seo",
+    "category": "research"
+  },
+  {
+    "slug": "happy-nut__claude-plugin-viban",
+    "type": "skill",
+    "name": "viban",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hardness1020__vibeflow",
+    "type": "skill",
+    "name": "vibeflow",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "harperreed__office-admin-claude",
+    "type": "skill",
+    "name": "office-admin",
+    "relevant": true,
+    "reason": "crm",
+    "category": "data"
+  },
+  {
+    "slug": "harris21__laravel-herd-worktree",
+    "type": "skill",
+    "name": "laravel-herd-worktree",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "haruhiyuki__vision-mcp",
+    "type": "skill",
+    "name": "vision-mcp",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hatawong__claude-recap",
+    "type": "skill",
+    "name": "claude-recap",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hatmanstack__claude-forge",
+    "type": "skill",
+    "name": "forge",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hazarsozer__crucible-cc",
+    "type": "plugin",
+    "name": "crucible",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hcsum__dont-let-me",
+    "type": "skill",
+    "name": "mentor",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hedde__trigger_tree",
+    "type": "skill",
+    "name": "trigger-tree",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "helderberto__agent-skills",
+    "type": "skill",
+    "name": "hb",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "heleninsights-dot__phd-deepread-workflow",
+    "type": "skill",
+    "name": "phd-deepread",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "heliohq__ship",
+    "type": "skill",
+    "name": "ship",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "helweg__open-codebase-index",
+    "type": "skill",
+    "name": "codebase-index",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "heptameta__heptabase-cli-skills",
+    "type": "skill",
+    "name": "heptabase",
+    "relevant": true,
+    "reason": "note-taking",
+    "category": "productivity"
+  },
+  {
+    "slug": "herbertjulio__specialist-agent",
+    "type": "mcp-server",
+    "name": "specialist-agent",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hereinthehive__gotrino-assistant",
+    "type": "skill",
+    "name": "gotrino-assistant",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hestudy__snowflake-fiction",
+    "type": "plugin",
+    "name": "snowflake-fiction",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hetcreep__coalmine",
+    "type": "skill",
+    "name": "coalmine",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hewlettpackard__cmf",
+    "type": "skill",
+    "name": "cmf",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hex__claude-council",
+    "type": "skill",
+    "name": "claude-council",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hex__claude-taskmaster",
+    "type": "skill",
+    "name": "claude-taskmaster",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hex__claude-tmux",
+    "type": "skill",
+    "name": "claude-tmux",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hexsprite__claude-agents-md",
+    "type": "skill",
+    "name": "agents-md",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "heyadam__claudedesign-to-swiftui",
+    "type": "skill",
+    "name": "claudedesign-to-swiftui",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "heygen-com__hyperframes",
+    "type": "skill",
+    "name": "hyperframes",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "heygen-com__skills",
+    "type": "skill",
+    "name": "heygen",
+    "relevant": true,
+    "reason": "avatar video",
+    "category": "content"
+  },
+  {
+    "slug": "hiendinhngoc__unknowns",
+    "type": "skill",
+    "name": "unknowns",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "higangssh__yocto-agent-skills",
+    "type": "skill",
+    "name": "yocto-agent-skills",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "himanshusaleria__gtm-engine",
+    "type": "skill",
+    "name": "gtm-engine",
+    "relevant": true,
+    "reason": "crm",
+    "category": "research"
+  },
+  {
+    "slug": "hirokita117__yaml-to-html-skill",
+    "type": "skill",
+    "name": "yaml-to-html",
+    "relevant": true,
+    "reason": "presentation",
+    "category": "design"
+  },
+  {
+    "slug": "histai__skillsets",
+    "type": "skill",
+    "name": "histai-skillsets",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hjertefolger__cortex",
+    "type": "skill",
+    "name": "cortex",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hmason__gremlins",
+    "type": "skill",
+    "name": "gremlins",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hnshah__pagekit",
+    "type": "skill",
+    "name": "pagekit",
+    "relevant": true,
+    "reason": "copywriting",
+    "category": "content"
+  },
+  {
+    "slug": "hodgesmr__agent-fecfile",
+    "type": "skill",
+    "name": "fecfile",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "honeydew-ai__honeydew-ai-claude-plugins",
+    "type": "skill",
+    "name": "honeydew-ai",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hongluw__wenyanwen",
+    "type": "skill",
+    "name": "wenyan",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hongsw__plugin-for-claude-research",
+    "type": "skill",
+    "name": "plugin-for-claude-research",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "horace-maxwell__horosa-skill",
+    "type": "skill",
+    "name": "horosa",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hotthoughts__jj-skills",
+    "type": "skill",
+    "name": "jj",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "houseofmvps__claude-rank",
+    "type": "plugin",
+    "name": "claude-rank",
+    "relevant": true,
+    "reason": "marketing",
+    "category": "research"
+  },
+  {
+    "slug": "hoya324__oh-my-harness",
+    "type": "skill",
+    "name": "oh-my-harness",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hthsolid__claude-dejavu",
+    "type": "plugin",
+    "name": "claude-dejavu",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "huangdijia__wechat-skills",
+    "type": "skill",
+    "name": "wechat-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hubeiqiao__apple-bento-grid",
+    "type": "skill",
+    "name": "apple-bento-grid",
+    "relevant": true,
+    "reason": "presentation",
+    "category": "design"
+  },
+  {
+    "slug": "huggingface__skills",
+    "type": "skill",
+    "name": "huggingface-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hugoguerrap__crypto-claude-desk",
+    "type": "skill",
+    "name": "crypto-trading-desk",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hujianbest__harness-flow",
+    "type": "skill",
+    "name": "harness-flow",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hummer98__cmux-team",
+    "type": "skill",
+    "name": "cmux-team",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hummer98__using-cmux",
+    "type": "skill",
+    "name": "using-cmux",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hungv47__meta-skills",
+    "type": "skill",
+    "name": "forsvn",
+    "relevant": true,
+    "reason": "marketing",
+    "category": "content"
+  },
+  {
+    "slug": "hunter-io__claude-plugin",
+    "type": "skill",
+    "name": "hunter",
+    "relevant": true,
+    "reason": "crm",
+    "category": "research"
+  },
+  {
+    "slug": "hurttlocker__token-lean",
+    "type": "skill",
+    "name": "token-lean",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "husniadil__cc-hooks",
+    "type": "plugin",
+    "name": "cc-hooks-plugin",
+    "relevant": true,
+    "reason": "translation",
+    "category": "content"
+  },
+  {
+    "slug": "hyhmrright__brooks-lint",
+    "type": "skill",
+    "name": "brooks-lint",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hyperb1iss__moonrepo-skill",
+    "type": "skill",
+    "name": "moonrepo",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hyperfx-ai__marketing-skills",
+    "type": "skill",
+    "name": "hyper-marketing",
+    "relevant": true,
+    "reason": "marketing",
+    "category": "content"
+  },
+  {
+    "slug": "hypoxanthineovo__hypo-workflow",
+    "type": "skill",
+    "name": "hw",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "hypurrquant__perp-cli",
+    "type": "skill",
+    "name": "perp-cli",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "i-dot-ai__lex",
+    "type": "skill",
+    "name": "lex-uk-law",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "iagocavalcante__claude-turbo-search",
+    "type": "skill",
+    "name": "claude-turbo-search",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "iannuttall__seo",
+    "type": "skill",
+    "name": "seo",
+    "relevant": true,
+    "reason": "seo",
+    "category": "research"
+  },
+  {
+    "slug": "ianvdev__orbit-prompt",
+    "type": "skill",
+    "name": "orbit-prompt",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "iaserrat__krafter",
+    "type": "skill",
+    "name": "krafter",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ibrahim-3d__orchestrator-supaconductor",
+    "type": "plugin",
+    "name": "orchestrator-supaconductor",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ic3b3rg__learn-skills",
+    "type": "skill",
+    "name": "learn-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "icloudza__algokiller-plugin",
+    "type": "skill",
+    "name": "ak",
+    "relevant": true,
+    "reason": "search engine",
+    "category": "productivity"
+  },
+  {
+    "slug": "idocohen560__kodamaalpha",
+    "type": "skill",
+    "name": "claude-buddy",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "idradev__diagrammer",
+    "type": "skill",
+    "name": "diagrammer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ihtsdo__snowstorm-mcp-server",
+    "type": "skill",
+    "name": "snowstorm-mcp-server",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ij5a__subrosa",
+    "type": "skill",
+    "name": "subrosa",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ijin__aidlc-cc-plugin",
+    "type": "skill",
+    "name": "aidlc",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ilang-ai__autocode",
+    "type": "skill",
+    "name": "autocode",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ilang-ai__imprint",
+    "type": "skill",
+    "name": "imprint",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ilyautov__humanizer-ru",
+    "type": "skill",
+    "name": "humanizer-ru",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "imadrifai__prd-kit",
+    "type": "skill",
+    "name": "prd",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "imbad0202__critical-thinking-for-humans",
+    "type": "skill",
+    "name": "critical-thinking-for-humans",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "impel-intelligence__datapoint-mcp",
+    "type": "plugin",
+    "name": "datapoint",
+    "relevant": true,
+    "reason": "survey",
+    "category": "research"
+  },
+  {
+    "slug": "imwebme__imweb-ai-toolkit",
+    "type": "skill",
+    "name": "imweb-ai-toolkit",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "imyousuf__agentic-test-runner",
+    "type": "skill",
+    "name": "atr-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "infino-ai__code-context",
+    "type": "skill",
+    "name": "code-context",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "infinri__writ",
+    "type": "command",
+    "name": "writ",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ingtian__claude-witness",
+    "type": "mcp-server",
+    "name": "witness",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "inho-team__qe-framework",
+    "type": "skill",
+    "name": "qe-framework",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "initialneil__grounding-rules",
+    "type": "skill",
+    "name": "grounding-rules",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "initialneil__project-with-reflect",
+    "type": "skill",
+    "name": "project-with-reflect",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "initmahesh__minipm",
+    "type": "skill",
+    "name": "mini-pm",
+    "relevant": true,
+    "reason": "market research",
+    "category": "research"
+  },
+  {
+    "slug": "injaytseng__graph-engineering-on-research",
+    "type": "skill",
+    "name": "graph-engineering",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "innestic__claude-relay",
+    "type": "skill",
+    "name": "relay",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "insertkoinio__koin-migration",
+    "type": "skill",
+    "name": "koin-migration",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "insforge__insforge-skills",
+    "type": "skill",
+    "name": "insforge",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "insideout-ai__make-it-work",
+    "type": "skill",
+    "name": "make-it-work",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "institut-du-numerique-responsable__green-claude",
+    "type": "skill",
+    "name": "green-claude",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "isamercan__themekit",
+    "type": "skill",
+    "name": "themekit",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "iserter__laravel-claude-agents",
+    "type": "skill",
+    "name": "laravel-claude-agents",
+    "relevant": false,
+    "reason": "developer tool with incidental productivity features",
+    "category": "productivity"
+  },
+  {
+    "slug": "isukharev__atl",
+    "type": "skill",
+    "name": "atl",
+    "relevant": true,
+    "reason": "jira",
+    "category": "platform"
+  },
+  {
+    "slug": "itlearning__study-ios",
+    "type": "skill",
+    "name": "swift-study-skills",
+    "relevant": true,
+    "reason": "note-taking",
+    "category": "productivity"
+  },
+  {
+    "slug": "itmediatech__rag-cli",
+    "type": "skill",
+    "name": "rag-cli",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "itssosunny__job-searcher",
+    "type": "skill",
+    "name": "job-searcher",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "iurykrieger__claude-bedrock",
+    "type": "skill",
+    "name": "bedrock",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "iusztinpaul__squid",
+    "type": "skill",
+    "name": "squid",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ivan-magda__mobile-design-skills",
+    "type": "skill",
+    "name": "mobile-design-skills",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "ivklgn__ai-kit",
+    "type": "plugin",
+    "name": "ai-kit",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "iwasa-kosui__kamae-ts",
+    "type": "skill",
+    "name": "kamae-ts",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "izar__tm_skills",
+    "type": "skill",
+    "name": "tm-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "j-morgan6__elixir-phoenix-guide",
+    "type": "skill",
+    "name": "elixir-phoenix-guide",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "j0hanz__mcp-dev",
+    "type": "skill",
+    "name": "mcp-hub",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "j0hanz__squad-agents",
+    "type": "skill",
+    "name": "squad-agents",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "j0hanz__squads",
+    "type": "skill",
+    "name": "squads",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jackchuka__skillctx",
+    "type": "skill",
+    "name": "skillctx",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jackielii__structpages",
+    "type": "skill",
+    "name": "structpages",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jackreis__neurodivergent-visual-org",
+    "type": "skill",
+    "name": "neurodivergent-visual-org",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jackson-video-resources__markov-hedge-fund-method",
+    "type": "skill",
+    "name": "markov-hedge-fund-method",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jaderson-bit__mindmap-markmap-viewer",
+    "type": "skill",
+    "name": "mindmap-markmap-viewer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jaechang-hits__sciagent-skills",
+    "type": "skill",
+    "name": "sciagent-skills",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "jamesrochabrun__shaderkit",
+    "type": "skill",
+    "name": "shaderkit",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "jamesrochabrun__skills",
+    "type": "skill",
+    "name": "skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jamillazarev__multica-ops",
+    "type": "skill",
+    "name": "multica-ops",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jananthan30__resume-builder",
+    "type": "plugin",
+    "name": "resume-builder",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jaredgizersky__stash",
+    "type": "plugin",
+    "name": "stash",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jarrodwatts__claude-delegator",
+    "type": "plugin",
+    "name": "claude-delegator",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jarrodwatts__claude-hud",
+    "type": "command",
+    "name": "claude-hud",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "jarvusinnovations__hologit",
+    "type": "skill",
+    "name": "hologit",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jason-chen-coder__dev-skills",
+    "type": "skill",
+    "name": "dev-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jasonkneen__kiro",
+    "type": "skill",
+    "name": "kiro-spec-driven",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "jasonku09__altitude-skills",
+    "type": "skill",
+    "name": "altitude",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jasonxudeveloper__jengine",
+    "type": "skill",
+    "name": "jengine",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jaypokale__rdxmin",
+    "type": "skill",
+    "name": "chisle",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "jcraigk__nerdflair",
+    "type": "skill",
+    "name": "nerdflair",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "jdforsythe__forge",
+    "type": "skill",
+    "name": "forge",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jedeiah__agent-critter",
+    "type": "agent",
+    "name": "agent-critter",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jeff7712__claude-tutor",
+    "type": "skill",
+    "name": "tutor",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jeffallan__fitness-tools",
+    "type": "skill",
+    "name": "fitness-tools",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jeffallan__writing-with-agents",
+    "type": "plugin",
+    "name": "writing-with-agents",
+    "relevant": true,
+    "reason": "seo",
+    "category": "research"
+  },
+  {
+    "slug": "jeonkh81__medistat-table1",
+    "type": "skill",
+    "name": "medistat-table1",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jerry7991__nova-thesis",
+    "type": "skill",
+    "name": "nova-thesis",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jesseovo__last30days-skill-cn",
+    "type": "skill",
+    "name": "last30days-cn",
+    "relevant": true,
+    "reason": "seo",
+    "category": "research"
+  },
+  {
+    "slug": "jessepwj__ccteam-creator",
+    "type": "skill",
+    "name": "CCteam-creator",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jetbrains__phpstorm-claude-marketplace",
+    "type": "skill",
+    "name": "phpstorm-plugin",
+    "relevant": true,
+    "reason": "marketplace",
+    "category": "platform"
+  },
+  {
+    "slug": "jfernandez__mdserve",
+    "type": "skill",
+    "name": "mdserve",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jfr992__terragrunt-skill",
+    "type": "skill",
+    "name": "terragrunt-skill",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jgamaraalv__ts-dev-kit",
+    "type": "skill",
+    "name": "ts-dev-kit",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jhlee0409__all-for-claudecode",
+    "type": "skill",
+    "name": "afc",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jiahao-shao1__sjh-skills",
+    "type": "skill",
+    "name": "sjh-skills",
+    "relevant": true,
+    "reason": "notion",
+    "category": "platform"
+  },
+  {
+    "slug": "jianzhichun__permafrost",
+    "type": "plugin",
+    "name": "permafrost",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jiatastic__open-python-skills",
+    "type": "skill",
+    "name": "open-python-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jimmy-holiday__xxyy-trade-skill",
+    "type": "skill",
+    "name": "xxyy-trade",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jing1312__nature-figure-skill",
+    "type": "skill",
+    "name": "nature-skills",
+    "relevant": true,
+    "reason": "presentation",
+    "category": "design"
+  },
+  {
+    "slug": "jinwx__weather-data-skills",
+    "type": "skill",
+    "name": "weather-data-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jiten-singh-shahi__salesforce-claude-code",
+    "type": "mcp-server",
+    "name": "salesforce-claude-code",
+    "relevant": false,
+    "reason": "developer tool with incidental productivity features",
+    "category": "productivity"
+  },
+  {
+    "slug": "jitx-inc__jitx-skills",
+    "type": "skill",
+    "name": "jitx-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jjuanrivvera__canvas-cli",
+    "type": "skill",
+    "name": "canvas-cli",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jl-cmd__claude-dream",
+    "type": "skill",
+    "name": "dream",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jmagar__claude-homelab",
+    "type": "skill",
+    "name": "homelab-core",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jmylchreest__aide",
+    "type": "skill",
+    "name": "aide",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jnmetacode__ai-shortfilm-prompts",
+    "type": "skill",
+    "name": "ai-shortfilm-prompts",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jnmetacode__superpowers-zh",
+    "type": "skill",
+    "name": "superpowers-zh",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "joaoariedi__ai-assisted-development-framework",
+    "type": "mcp-server",
+    "name": "ai-development-framework",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "joaquincampo__agent-debugger",
+    "type": "skill",
+    "name": "agent-debugger",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "joestump__claude-plugin-design",
+    "type": "skill",
+    "name": "sdd",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "joncik91__ucai",
+    "type": "plugin",
+    "name": "ucai",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jonthebeef__deckhand",
+    "type": "skill",
+    "name": "deckhand",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "joomcode__joompulse-skills",
+    "type": "skill",
+    "name": "pulse-skills",
+    "relevant": true,
+    "reason": "marketplace",
+    "category": "platform"
+  },
+  {
+    "slug": "jordanrendric__claude-video-vision",
+    "type": "skill",
+    "name": "claude-video-vision",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jovancoding__network-ai",
+    "type": "skill",
+    "name": "network-ai",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "jpantsjoha__ai-native-developer-experience",
+    "type": "skill",
+    "name": "join-the-team",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jshchnz__claude-code-image",
+    "type": "plugin",
+    "name": "image",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jsonlee12138__agent-team",
+    "type": "skill",
+    "name": "agent-team",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jsungmin__vs-token-safer",
+    "type": "skill",
+    "name": "vs-token-safer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "juan294__cc-rpi",
+    "type": "skill",
+    "name": "cc-rpi",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "juliaio__grpcclient.jl",
+    "type": "skill",
+    "name": "grpcclient-jl",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "jun0-ds__sonmat",
+    "type": "skill",
+    "name": "sonmat",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "junghoonghae__claude-statusline",
+    "type": "plugin",
+    "name": "claude-statusline",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "junjslee__episteme",
+    "type": "skill",
+    "name": "episteme",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "justi__claude-code-project-boundary",
+    "type": "plugin",
+    "name": "project-boundary",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "justvinhhere__bigquery-expert",
+    "type": "skill",
+    "name": "bigquery-expert",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "k-dense-ai__science-superpowers",
+    "type": "skill",
+    "name": "science-superpowers",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kalmantic__justokenmax",
+    "type": "skill",
+    "name": "justokenmax",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kam-l__claude-coach",
+    "type": "skill",
+    "name": "claude-coach",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kamioj__spec-workflow",
+    "type": "plugin",
+    "name": "spec",
+    "relevant": true,
+    "reason": "proposal",
+    "category": "productivity"
+  },
+  {
+    "slug": "kanfu-panda__pdlc-skills",
+    "type": "skill",
+    "name": "pdlc",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kanopi__claude-dev-insights",
+    "type": "plugin",
+    "name": "claude-dev-insights",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kanopi__cms-cultivator",
+    "type": "plugin",
+    "name": "cms-cultivator",
+    "relevant": true,
+    "reason": "figma",
+    "category": "design"
+  },
+  {
+    "slug": "kanopi__cms-planner",
+    "type": "plugin",
+    "name": "cms-planner",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "karaage0703__claude-coding-assistant",
+    "type": "mcp-server",
+    "name": "coding-assistant",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "karanb192__slack-message-formatter",
+    "type": "skill",
+    "name": "slack-message-formatter",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "karanchawla__vvm",
+    "type": "skill",
+    "name": "vvm",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kasperchengh__multicharts-powerlanguage",
+    "type": "skill",
+    "name": "multicharts-powerlanguage",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kasuncfdo__ghost-headless-blog-skill",
+    "type": "skill",
+    "name": "ghost-headless-blog",
+    "relevant": true,
+    "reason": "seo",
+    "category": "research"
+  },
+  {
+    "slug": "kawasima__ai-in-the-human-loop",
+    "type": "skill",
+    "name": "ai-in-the-human-loop",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kawasima__evolutionary-naming",
+    "type": "skill",
+    "name": "evolutionary-naming",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kayw-geek__phpstan-type-trace",
+    "type": "skill",
+    "name": "phpstan-type-trace",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kazukinagata__shinkoku",
+    "type": "skill",
+    "name": "shinkoku",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kbgod__lumex",
+    "type": "skill",
+    "name": "lumex",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "keep-starknet-strange__starknet-agentic",
+    "type": "skill",
+    "name": "starknet-agentic-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "keiseilab__keiseikit",
+    "type": "plugin",
+    "name": "keisei",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kenhuangus__fable5",
+    "type": "skill",
+    "name": "fable5-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kenn-io__roborev",
+    "type": "plugin",
+    "name": "roborev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kepano__obsidian-skills",
+    "type": "skill",
+    "name": "obsidian",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "kernalix7__aips",
+    "type": "plugin",
+    "name": "AIPS",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kernellord__pickysteve",
+    "type": "mcp-server",
+    "name": "pickysteve",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "kesteva__soloflow",
+    "type": "plugin",
+    "name": "soloflow",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kfchou__wiki-skills",
+    "type": "skill",
+    "name": "wiki-skills",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "killedbyapixel__littlejs-ai",
+    "type": "skill",
+    "name": "littlejs",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kinggyusuh__codex-image-in-cc",
+    "type": "skill",
+    "name": "codex-image",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kirilxd__claude-tutor",
+    "type": "skill",
+    "name": "claude-tutor",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kirilxd__swe-interview-coach",
+    "type": "skill",
+    "name": "swe-interview-coach",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kirkchen__beat",
+    "type": "skill",
+    "name": "beat",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kisaragi-mochi__stackchan-mcp",
+    "type": "plugin",
+    "name": "stackchanmcp",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kittimasak__thai-token-optimizer",
+    "type": "skill",
+    "name": "thai-token-optimizer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kiycoh__silica",
+    "type": "skill",
+    "name": "silica",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "knwoop__clear-plan-skills",
+    "type": "skill",
+    "name": "clear-plan-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kobiton__automate",
+    "type": "skill",
+    "name": "automate",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "koher__swift-cui",
+    "type": "skill",
+    "name": "swiftcui",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "komluk__scaffolding",
+    "type": "hook",
+    "name": "scaffolding",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "konglong87__hall-of-fame",
+    "type": "skill",
+    "name": "hall-of-fame",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "konglong87__superpm",
+    "type": "skill",
+    "name": "super-pm",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "konraddzbik__architecture-diagram-skill",
+    "type": "skill",
+    "name": "architecture-diagram",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "korck-lab__claude-code-optimizer",
+    "type": "skill",
+    "name": "claude-code-optimizer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "korosuke613__coding-agent-recipe",
+    "type": "skill",
+    "name": "coding-agent-recipe",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "krishnansg__superlore",
+    "type": "skill",
+    "name": "superlore",
+    "relevant": true,
+    "reason": "knowledge base",
+    "category": "productivity"
+  },
+  {
+    "slug": "kronael__tools",
+    "type": "skill",
+    "name": "kronael",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "krzysztofdudek__researcherskill",
+    "type": "skill",
+    "name": "researcher",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ktoulgaridis__forge",
+    "type": "plugin",
+    "name": "forge",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kube-dc__kube-dc-public",
+    "type": "skill",
+    "name": "kube-dc",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kucherenko__gangsta",
+    "type": "skill",
+    "name": "gangsta",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "kumarsashank__motiscope",
+    "type": "skill",
+    "name": "motiscope",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kuniwak__pfd-tools",
+    "type": "skill",
+    "name": "pfd-skills",
+    "relevant": true,
+    "reason": "google sheets",
+    "category": "data"
+  },
+  {
+    "slug": "kvreem__claude-cast",
+    "type": "skill",
+    "name": "claude-cast",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "kylesnowschwartz__ralph-ban",
+    "type": "skill",
+    "name": "ralph-ban",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "lachydotmcg__slopsec",
+    "type": "skill",
+    "name": "slopsec",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lackeyjb__playwright-skill",
+    "type": "skill",
+    "name": "playwright-skill",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lagz0ne__c3-skill",
+    "type": "skill",
+    "name": "c3-skill",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "laiso__cman",
+    "type": "skill",
+    "name": "cman",
+    "relevant": true,
+    "reason": "summarize",
+    "category": "content"
+  },
+  {
+    "slug": "laith0003__ux-skill",
+    "type": "plugin",
+    "name": "ux",
+    "relevant": true,
+    "reason": "brand",
+    "category": "content"
+  },
+  {
+    "slug": "lakpriya1s__ccbar",
+    "type": "command",
+    "name": "ccbar",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "langchain-ai__langsmith-claude-code-plugins",
+    "type": "plugin",
+    "name": "langsmith-tracing",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "langfuse__claude-observability-plugin",
+    "type": "plugin",
+    "name": "langfuse-observability",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "langmartai__claude-code-multisession",
+    "type": "plugin",
+    "name": "claude-code-multisession",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "langmartai__claude-code-webui",
+    "type": "plugin",
+    "name": "claude-code-webui",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "langmartai__lm-assist",
+    "type": "skill",
+    "name": "lm-assist",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "larrygf__gaslighter",
+    "type": "skill",
+    "name": "gaslighter",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "latent-spaces__brag",
+    "type": "skill",
+    "name": "brag",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lattifai__lattifai-skills",
+    "type": "skill",
+    "name": "lattifai-skills",
+    "relevant": true,
+    "reason": "translation",
+    "category": "content"
+  },
+  {
+    "slug": "lattifai__omni-captions-skills",
+    "type": "skill",
+    "name": "omnicaptions",
+    "relevant": true,
+    "reason": "translation",
+    "category": "content"
+  },
+  {
+    "slug": "launchdarkly__ai-tooling",
+    "type": "skill",
+    "name": "launchdarkly",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lavidrori0702__tableau-dashboard-creator-skill",
+    "type": "skill",
+    "name": "tableau-dashboard-plugin",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lazyyoyo__naver-blog-importer",
+    "type": "skill",
+    "name": "naver-blog-importer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "leadmagic__gtm-skills",
+    "type": "skill",
+    "name": "gtm-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "leanandmean__mach10",
+    "type": "plugin",
+    "name": "mach10",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "leanprover__skills",
+    "type": "skill",
+    "name": "lean",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lee-w__maigo",
+    "type": "plugin",
+    "name": "maigo",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "leeguooooo__claude-code-usage-bar",
+    "type": "skill",
+    "name": "claude-statusbar",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "leeroo-ai__superml",
+    "type": "skill",
+    "name": "superml",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lemonscripter__metaspace-membrane",
+    "type": "plugin",
+    "name": "metaspace-membrane",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lensesio__agentic-engineering-for-apache-kafka",
+    "type": "skill",
+    "name": "kafka-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "leodorareluctant259__superpowers-zh",
+    "type": "skill",
+    "name": "superpowers-zh",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "leonmelamud__agentcore-toolkit",
+    "type": "skill",
+    "name": "agentcore",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "leonmelamud__lid-awake",
+    "type": "plugin",
+    "name": "lid-awake",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "leonxlnx__taste-skill",
+    "type": "skill",
+    "name": "taste-skill",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "leroybbad__designkit",
+    "type": "skill",
+    "name": "designkit",
+    "relevant": true,
+    "reason": "design tool",
+    "category": "design"
+  },
+  {
+    "slug": "lets7512__rlm-skill",
+    "type": "skill",
+    "name": "rlm",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "letta-ai__claude-subconscious",
+    "type": "plugin",
+    "name": "claude-subconscious",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lewispb__rails-query-skill",
+    "type": "skill",
+    "name": "rails-query",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lfnovo__content-core",
+    "type": "skill",
+    "name": "content-core",
+    "relevant": true,
+    "reason": "pdf",
+    "category": "content"
+  },
+  {
+    "slug": "lgbarn__shipyard",
+    "type": "plugin",
+    "name": "shipyard",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "li-evan__bloom",
+    "type": "skill",
+    "name": "bloom",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "liamcain__obsidian-dev-skills",
+    "type": "skill",
+    "name": "obsidian-dev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "liang121__video-summarizer",
+    "type": "skill",
+    "name": "video-summarizer",
+    "relevant": true,
+    "reason": "summarize",
+    "category": "content"
+  },
+  {
+    "slug": "liarmttt__tavernweave",
+    "type": "skill",
+    "name": "tavernweave-agent-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "liatrio-labs__claude-code-gauntlet",
+    "type": "skill",
+    "name": "code-gauntlet",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lichamnesia__lich-skills",
+    "type": "skill",
+    "name": "lich-skills",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "lifedever__claude-rules",
+    "type": "skill",
+    "name": "init-claude-rules",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lightning-rod-labs__lightningrod-python-sdk",
+    "type": "plugin",
+    "name": "lightningrod-python-sdk",
+    "relevant": false,
+    "reason": "ML inference SDK, not marketing forecasting",
+    "category": "productivity"
+  },
+  {
+    "slug": "lightonai__next-plaid",
+    "type": "skill",
+    "name": "colgrep",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lightprotocol__skills",
+    "type": "skill",
+    "name": "solana-rent-free-development",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lightseekorg__smg-dev-guide",
+    "type": "skill",
+    "name": "smg",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lilmgenius__polysona",
+    "type": "skill",
+    "name": "polysona",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lilmgenius__win-hooks",
+    "type": "skill",
+    "name": "win-hooks",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "linearis-oss__linearis",
+    "type": "skill",
+    "name": "linearis",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "linq-team__claude-code-imessage-channel",
+    "type": "skill",
+    "name": "imessage",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "linux-root__scala-zio-skills",
+    "type": "skill",
+    "name": "zio-reference",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "linuxfoundation__lfx-skills",
+    "type": "skill",
+    "name": "lfx-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "linxule__kimi-plugin-cc",
+    "type": "skill",
+    "name": "kimi",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "linziyanleo__spec-anchor",
+    "type": "skill",
+    "name": "spec-anchor",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "liorwn__claudetop",
+    "type": "plugin",
+    "name": "claudetop",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "lispking__ferris-search",
+    "type": "skill",
+    "name": "ferris-search",
+    "relevant": true,
+    "reason": "web search",
+    "category": "productivity"
+  },
+  {
+    "slug": "litestar-org__litestar-skills",
+    "type": "skill",
+    "name": "litestar",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "little-grebe-inc__drillr-mcp-server",
+    "type": "mcp-server",
+    "name": "drillr",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "littlebearapps__contextdocs",
+    "type": "skill",
+    "name": "contextdocs",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "littlebearapps__pitchdocs",
+    "type": "skill",
+    "name": "pitchdocs",
+    "relevant": true,
+    "reason": "marketing",
+    "category": "research"
+  },
+  {
+    "slug": "liveblocks__liveblocks-plugin",
+    "type": "skill",
+    "name": "liveblocks",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lkimuk__ai-policy-runtime",
+    "type": "plugin",
+    "name": "ai-policy-runtime",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "llmquant__skills",
+    "type": "skill",
+    "name": "llmquant-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lnilya__effortless-academic-skills",
+    "type": "skill",
+    "name": "academicskills",
+    "relevant": true,
+    "reason": "note-taking",
+    "category": "productivity"
+  },
+  {
+    "slug": "localstack__skills",
+    "type": "skill",
+    "name": "localstack",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "logiclabs__dotnet-nuget-proxy-skill",
+    "type": "skill",
+    "name": "dotnet-nuget-proxy",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "logly__mureo",
+    "type": "skill",
+    "name": "mureo",
+    "relevant": true,
+    "reason": "google ads",
+    "category": "platform"
+  },
+  {
+    "slug": "loops-so__skills",
+    "type": "skill",
+    "name": "loops",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lopadova__claude-mem-sync",
+    "type": "skill",
+    "name": "claude-mem-sync",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lucamezzalira__mfe-skills",
+    "type": "skill",
+    "name": "mfe-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lucifer1004__veloq",
+    "type": "skill",
+    "name": "veloq",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "luckeyfaraday__codex-router",
+    "type": "skill",
+    "name": "codex-router",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lukaszraczylo__claude-mnemonic",
+    "type": "mcp-server",
+    "name": "claude-mnemonic",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lum1104__uni-code",
+    "type": "skill",
+    "name": "uni-code",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ly8427__gan-zhong-xue",
+    "type": "skill",
+    "name": "gan-zhong-xue",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "lyzr-cognis__claude-cognis",
+    "type": "skill",
+    "name": "claude-cognis",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "m1ckc3s__claude-status-bar",
+    "type": "plugin",
+    "name": "claude-status-bar",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "m4dc4p__claude-hls",
+    "type": "skill",
+    "name": "hls",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "m98__fluent",
+    "type": "skill",
+    "name": "fluent",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "maciejdzierzek__kling-ai-prompt-generator",
+    "type": "skill",
+    "name": "kling-ai-prompt-generator",
+    "relevant": true,
+    "reason": "video editing",
+    "category": "design"
+  },
+  {
+    "slug": "madskristensen__vs-agent-plugins",
+    "type": "skill",
+    "name": "vs-extensibility-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mainnebula__token-steward",
+    "type": "skill",
+    "name": "token-steward",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "makash__agent-infra-security",
+    "type": "skill",
+    "name": "agent-infra-security",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "makfly__superpowers-symfony",
+    "type": "plugin",
+    "name": "superpowers-symfony",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "makingchatbots__genesys-cloud-plugins",
+    "type": "skill",
+    "name": "genesys-cloud-architect",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "makzimi__tbd",
+    "type": "skill",
+    "name": "tbd",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "malcolm1232__workboard",
+    "type": "skill",
+    "name": "board-steward",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "maludb__learn-claude",
+    "type": "skill",
+    "name": "learn-claude",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "manalkaff__opendesign",
+    "type": "skill",
+    "name": "opendesign",
+    "relevant": true,
+    "reason": "brand",
+    "category": "content"
+  },
+  {
+    "slug": "manderse21__claude-powershell-lsp",
+    "type": "lsp-server",
+    "name": "powershell-lsp",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mapbox__mapbox-agent-skills",
+    "type": "skill",
+    "name": "mapbox",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "marcelrgberger__pages-cli",
+    "type": "skill",
+    "name": "pages-cli",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "marcelroozekrans__memorylens-mcp",
+    "type": "skill",
+    "name": "memorylens",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "marekpal97__thinkweave",
+    "type": "mcp-server",
+    "name": "thinkweave",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mariourquia__cre-skills-plugin",
+    "type": "mcp-server",
+    "name": "cre-skills",
+    "relevant": true,
+    "reason": "market research",
+    "category": "research"
+  },
+  {
+    "slug": "markdunne__asdabot",
+    "type": "skill",
+    "name": "asdabot",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "markshust__hcf",
+    "type": "skill",
+    "name": "hcf",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "markusleben__ha-nova",
+    "type": "skill",
+    "name": "ha-nova",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "marmbiz__humanizer-de",
+    "type": "skill",
+    "name": "humanizer-de",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "marvec__rock-star-skills",
+    "type": "skill",
+    "name": "rock-star-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "masup9__a11y-specialist-skills",
+    "type": "skill",
+    "name": "a11y-specialist-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "matheusfillipe__diffler",
+    "type": "skill",
+    "name": "diffler",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mathiaschu__claude-video",
+    "type": "skill",
+    "name": "watch",
+    "relevant": true,
+    "reason": "instagram",
+    "category": "content"
+  },
+  {
+    "slug": "matlab__slash-commands",
+    "type": "command",
+    "name": "matlab-slash-commands",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mattartzanthro__ai-anthropology-toolkit",
+    "type": "skill",
+    "name": "ai-anthropology",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "matteodante__claude-local-docs",
+    "type": "plugin",
+    "name": "claude-local-docs",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mattjoyce__kanban-skill",
+    "type": "skill",
+    "name": "kanban",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "mattjoyce__luminary-prompts",
+    "type": "skill",
+    "name": "luminaries",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mattpocock__skills",
+    "type": "skill",
+    "name": "mattpocock-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mattsears__rails-cto",
+    "type": "skill",
+    "name": "rails-cto",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mawildoer__atopile-agent-skill",
+    "type": "skill",
+    "name": "atopile-dev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "max4c__skills",
+    "type": "skill",
+    "name": "max",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "maxencemeloni__claude-code-agent-smith",
+    "type": "command",
+    "name": "agent-smith",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "maxwell2732__claudecode-research-harness-workflow",
+    "type": "skill",
+    "name": "claudecode-research-harness-workflow",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mazenyassergithub__oh-my-claudecode",
+    "type": "plugin",
+    "name": "oh-my-claudecode",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mbailey__voicemode",
+    "type": "skill",
+    "name": "voicemode",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mcanouil__gribouille",
+    "type": "skill",
+    "name": "gribouille",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "me2resh__agent-decision-record",
+    "type": "skill",
+    "name": "agent-decision-record",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mearman__mcp-wayback-machine",
+    "type": "mcp-server",
+    "name": "mcp-wayback-machine",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "medadembha__docflow",
+    "type": "skill",
+    "name": "docflow",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "melgarafael__obsidian-master-kit",
+    "type": "skill",
+    "name": "obsidian-master-kit",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "membraneframework__membrane_core",
+    "type": "skill",
+    "name": "membrane-framework",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mempalace__mempalace",
+    "type": "skill",
+    "name": "mempalace",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mentalfaculty__ensembles3",
+    "type": "skill",
+    "name": "ensembles",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "meta-quest__agentic-tools",
+    "type": "skill",
+    "name": "meta-vr",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "metalbear-co__skills",
+    "type": "skill",
+    "name": "mirrord",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mflrevan__unity-control-protocol",
+    "type": "skill",
+    "name": "ucp",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mhaviv__swift-focusengine-agent-skill",
+    "type": "skill",
+    "name": "swift-focusengine-pro",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "mhmtszr__go-guidelines",
+    "type": "skill",
+    "name": "go-guidelines",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "michael-harris__devteam",
+    "type": "plugin",
+    "name": "devteam",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "michaelboeding__skills",
+    "type": "plugin",
+    "name": "skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "michtio__craftcms-claude-skills",
+    "type": "skill",
+    "name": "craftcms-claude-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mickeyalton33__web-designer-plugin",
+    "type": "skill",
+    "name": "web-designer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "microck__kagi-cli",
+    "type": "skill",
+    "name": "kagi",
+    "relevant": true,
+    "reason": "research assistant",
+    "category": "productivity"
+  },
+  {
+    "slug": "microsoft__aspire-skills",
+    "type": "skill",
+    "name": "aspire",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "microsoft__bcquality",
+    "type": "skill",
+    "name": "bcquality",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "microsoft__copilot-studio-plugin",
+    "type": "plugin",
+    "name": "mcs-assistant",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "microsoft__skills-for-copilot-studio",
+    "type": "skill",
+    "name": "copilot-studio",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "microsoft__webwright",
+    "type": "skill",
+    "name": "webwright",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "microsoftdocs__mcp",
+    "type": "skill",
+    "name": "microsoft-docs",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "micsm__boffin",
+    "type": "skill",
+    "name": "boffin",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "midstall__claude-for-hardware",
+    "type": "skill",
+    "name": "claude-for-hardware",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "mikiarlo3__ai-copywriter",
+    "type": "skill",
+    "name": "ai-copywriter",
+    "relevant": true,
+    "reason": "marketing",
+    "category": "content"
+  },
+  {
+    "slug": "mikkoparkkola__trvl",
+    "type": "skill",
+    "name": "trvl",
+    "relevant": true,
+    "reason": "hotel",
+    "category": "productivity"
+  },
+  {
+    "slug": "milesdeutscher__garchmethod",
+    "type": "skill",
+    "name": "garch-method",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "mimfort__rag_for_git",
+    "type": "skill",
+    "name": "rag-reviewer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mingchao-king__superprogramming",
+    "type": "skill",
+    "name": "superprogramming",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "minhuw__claude-writer",
+    "type": "skill",
+    "name": "research-paper-assistant",
+    "relevant": true,
+    "reason": "conference",
+    "category": "productivity"
+  },
+  {
+    "slug": "minimax-ai__skills",
+    "type": "skill",
+    "name": "minimax-skills",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "minipuft__claude-prompts-mcp",
+    "type": "plugin",
+    "name": "claude-prompts",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "miragon__bpmn-to-code",
+    "type": "skill",
+    "name": "bpmn-to-code",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mistakey__simulink-automation-suite",
+    "type": "skill",
+    "name": "simulink-automation-suite",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mixedbread-ai__skills",
+    "type": "skill",
+    "name": "mixedbread-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mktoronto__python-clean-architecture",
+    "type": "skill",
+    "name": "python-clean-architecture",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mlolson__claude-spp",
+    "type": "skill",
+    "name": "spp",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mmmprod__claude-eta",
+    "type": "plugin",
+    "name": "claude-eta",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "moazbuilds__claudeclaw",
+    "type": "skill",
+    "name": "claudeclaw",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "moogento__moo-statusline",
+    "type": "plugin",
+    "name": "moo-statusline",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "morphaxl__ultragoal",
+    "type": "skill",
+    "name": "ultragoal",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mostashraf__ai-sdlc-harness",
+    "type": "skill",
+    "name": "ai-sdlc-harness",
+    "relevant": false,
+    "reason": "developer tool with incidental productivity features",
+    "category": "productivity"
+  },
+  {
+    "slug": "mourner__claudefiles",
+    "type": "skill",
+    "name": "claudefiles",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mrgediao__shuorenhua",
+    "type": "skill",
+    "name": "shuorenhua",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mrgoonie__fable-thinking",
+    "type": "skill",
+    "name": "fable-thinking",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mrmans0n__ai-review",
+    "type": "skill",
+    "name": "ai-review",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mrmans0n__git-gud",
+    "type": "skill",
+    "name": "git-gud",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mronkko__claude-academic-research",
+    "type": "skill",
+    "name": "academic-research",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "msanchezdev__agent-bridge",
+    "type": "skill",
+    "name": "agent-bridge",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "msiccdev__ai-context-kit",
+    "type": "skill",
+    "name": "ai-context-kit",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "msiccdev__arc42-toolkit",
+    "type": "skill",
+    "name": "arc42-toolkit",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "muend__geoai-skills",
+    "type": "skill",
+    "name": "geoai",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "murilobauck__specsmith",
+    "type": "skill",
+    "name": "specsmith",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mvanhorn__cli-printing-press",
+    "type": "skill",
+    "name": "cli-printing-press",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mvanhorn__last30days-skill",
+    "type": "skill",
+    "name": "last30days",
+    "relevant": true,
+    "reason": "instagram",
+    "category": "content"
+  },
+  {
+    "slug": "mvillmow__projectodyssey",
+    "type": "agent",
+    "name": "ml-odyssey-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "myrtlepn__gran-maestro",
+    "type": "skill",
+    "name": "mst",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "mzored__superpowers-cc-to-codex",
+    "type": "skill",
+    "name": "superpowers-cc-to-codex",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nagisanzenin__effortmining",
+    "type": "skill",
+    "name": "effortmining",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nagisanzenin__idiolect",
+    "type": "skill",
+    "name": "idiolect",
+    "relevant": true,
+    "reason": "copywriting",
+    "category": "content"
+  },
+  {
+    "slug": "nagisanzenin__less",
+    "type": "plugin",
+    "name": "less",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "najemwehbe__unreal-ai-connection",
+    "type": "skill",
+    "name": "unreal-ai-connection",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "naorsabag__openhop",
+    "type": "skill",
+    "name": "openhop",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nashtrader__n8n-autopilot",
+    "type": "skill",
+    "name": "n8n-autopilot",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nasrulhazim__claude",
+    "type": "plugin",
+    "name": "claude-toolkit",
+    "relevant": true,
+    "reason": "brand",
+    "category": "content"
+  },
+  {
+    "slug": "naticha__bunwv",
+    "type": "skill",
+    "name": "bunwv",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "navisbio__patent-search-mcp",
+    "type": "skill",
+    "name": "patent-search-mcp",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ncosentino__needlr",
+    "type": "plugin",
+    "name": "needlr",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ndesv21__socialclaw",
+    "type": "skill",
+    "name": "socialclaw",
+    "relevant": true,
+    "reason": "social media",
+    "category": "content"
+  },
+  {
+    "slug": "ndom91__open-plan-annotator",
+    "type": "skill",
+    "name": "open-plan-annotator",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nearform__unwind",
+    "type": "skill",
+    "name": "unwind",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "nebrass__hve-spielberg",
+    "type": "skill",
+    "name": "hve-video-director",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "neeeophytee__finding-unknowns-skills",
+    "type": "skill",
+    "name": "finding-unknowns",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "neilotoole__sq",
+    "type": "plugin",
+    "name": "sq",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nekohasekai__my-codex-plugin",
+    "type": "skill",
+    "name": "my-codex-plugin",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "neo4j-contrib__gds-agent",
+    "type": "skill",
+    "name": "gds-agent",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "neo4j-contrib__neo4j-skills",
+    "type": "skill",
+    "name": "neo4j-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "neondatabase__agent-skills",
+    "type": "skill",
+    "name": "neon-postgres",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "neonwatty__claude-skills",
+    "type": "skill",
+    "name": "qa-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netboxlabs__skills",
+    "type": "skill",
+    "name": "netbox-labs",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nethermindeth__defi-skills",
+    "type": "skill",
+    "name": "defi-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netlify__context-and-tools",
+    "type": "skill",
+    "name": "netlify-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__automated-assessment-skill",
+    "type": "skill",
+    "name": "automated-assessment",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__concourse-ci-skill",
+    "type": "skill",
+    "name": "concourse-ci",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__docker-development-skill",
+    "type": "skill",
+    "name": "docker-development",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__enterprise-readiness-skill",
+    "type": "skill",
+    "name": "enterprise-readiness",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__git-workflow-skill",
+    "type": "skill",
+    "name": "git-workflow",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__github-project-skill",
+    "type": "skill",
+    "name": "github-project",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__go-development-skill",
+    "type": "skill",
+    "name": "go-development",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__php-modernization-skill",
+    "type": "skill",
+    "name": "php-modernization",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__typo3-ckeditor5-skill",
+    "type": "skill",
+    "name": "typo3-ckeditor5",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__typo3-conformance-skill",
+    "type": "skill",
+    "name": "typo3-conformance",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "netresearch__typo3-core-contributions-skill",
+    "type": "skill",
+    "name": "typo3-core-contributions",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nickkraakman__skidl-skills",
+    "type": "skill",
+    "name": "skidl-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nicknisi__ideation",
+    "type": "skill",
+    "name": "ideation",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nicobailon__visual-explainer",
+    "type": "skill",
+    "name": "visual-explainer-marketplace",
+    "relevant": true,
+    "reason": "marketplace",
+    "category": "platform"
+  },
+  {
+    "slug": "nicolasfmelo__masa-skill",
+    "type": "skill",
+    "name": "masa",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nicolasprimeau__artel",
+    "type": "mcp-server",
+    "name": "artel",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nilswidal__loobster",
+    "type": "skill",
+    "name": "loobster",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "nitinjain999__platform-skills",
+    "type": "skill",
+    "name": "platform-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "njengah__vibe-code-common-sense",
+    "type": "skill",
+    "name": "vc-sense",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nmrtn__nanopm",
+    "type": "skill",
+    "name": "nanopm",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nodewarrior__spine",
+    "type": "skill",
+    "name": "spine",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "nomadamas__k-skill",
+    "type": "skill",
+    "name": "k-skill",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "noobygains__claude-pulse",
+    "type": "command",
+    "name": "claude-pulse",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "noobygains__godmode",
+    "type": "skill",
+    "name": "godmode",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "notmehul__marshmallow",
+    "type": "skill",
+    "name": "marshmallow",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nowork-studio__notfair",
+    "type": "skill",
+    "name": "notfair",
+    "relevant": true,
+    "reason": "marketing",
+    "category": "platform"
+  },
+  {
+    "slug": "nowsprinting__unity-coding-skills",
+    "type": "skill",
+    "name": "unity-coding-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nrdxp__predicate",
+    "type": "skill",
+    "name": "predicate",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nrwl__nx-ai-agents-config",
+    "type": "skill",
+    "name": "nx",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nullstone-io__nullstone",
+    "type": "plugin",
+    "name": "nullstone",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nur-zaman__git-recompose-skill",
+    "type": "skill",
+    "name": "git-recompose",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nvidia-tao__tao-skill-bank",
+    "type": "skill",
+    "name": "tao-skill-bank",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nwp__suno-song-creator-plugin",
+    "type": "skill",
+    "name": "suno-song-creator",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nxtg-ai__forge-plugin",
+    "type": "plugin",
+    "name": "nxtg-forge",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nycu-chung__cc-statusline",
+    "type": "plugin",
+    "name": "cc-statusline",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "nyelonong__galdr",
+    "type": "skill",
+    "name": "galdr",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "nyldn__claude-octopus",
+    "type": "command",
+    "name": "octo",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oaris-dev__diviops",
+    "type": "skill",
+    "name": "divi-5-builder",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "obeskay__lottie-animator-skill",
+    "type": "skill",
+    "name": "lottie-animator",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "obra__episodic-memory",
+    "type": "skill",
+    "name": "episodic-memory",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "obra__superpowers",
+    "type": "skill",
+    "name": "superpowers",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "obra__superpowers-chrome",
+    "type": "skill",
+    "name": "superpowers-chrome",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "obrenoalvim__zero-drift",
+    "type": "skill",
+    "name": "zero-drift",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "obsessiondb__clickhouse-skills",
+    "type": "skill",
+    "name": "clickhouse",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "octagonai__octagon-mcp-server",
+    "type": "skill",
+    "name": "octagon-market-intelligence",
+    "relevant": true,
+    "reason": "market research",
+    "category": "research"
+  },
+  {
+    "slug": "octavehq__lfgtm",
+    "type": "skill",
+    "name": "octave",
+    "relevant": true,
+    "reason": "knowledge base",
+    "category": "productivity"
+  },
+  {
+    "slug": "oeftimie__vv-claude-harness",
+    "type": "skill",
+    "name": "vv-harness",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ognjengt__founder-skills",
+    "type": "skill",
+    "name": "founder-skills",
+    "relevant": true,
+    "reason": "marketing",
+    "category": "content"
+  },
+  {
+    "slug": "oguzsh__claudey",
+    "type": "skill",
+    "name": "claudey",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oh-my-mermaid__oh-my-mermaid",
+    "type": "skill",
+    "name": "oh-my-mermaid",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "ohad6k__ditto",
+    "type": "skill",
+    "name": "emulo",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oikon48__cc-frontend-skills",
+    "type": "skill",
+    "name": "frontend-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ojowwalker77__claude-matrix",
+    "type": "skill",
+    "name": "matrix",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "olandodeflexy__ansible-skill",
+    "type": "skill",
+    "name": "ansible-skill",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "olegtsvetkov__3x-ui-vpn-skill",
+    "type": "skill",
+    "name": "3x-ui-vpn-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oliverames__ynab-mcp-server",
+    "type": "mcp-server",
+    "name": "ynab-mcp-server",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ollygarden__opentelemetry-agent-skills",
+    "type": "skill",
+    "name": "opentelemetry-agent-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "olsenbrands__fable-foreman",
+    "type": "skill",
+    "name": "fable-foreman",
+    "relevant": true,
+    "reason": "brand",
+    "category": "content"
+  },
+  {
+    "slug": "olshansk__agent-skills",
+    "type": "skill",
+    "name": "agent-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "omarshahine__homeclaw",
+    "type": "skill",
+    "name": "homeclaw",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "omidzamani__dspy-skills",
+    "type": "skill",
+    "name": "dspy-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "omril321__claude-plan-visualizer",
+    "type": "plugin",
+    "name": "plan-visualizer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "onesuper__tui-use",
+    "type": "skill",
+    "name": "tui-use",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "onur-gokyildiz-bhi__codescope",
+    "type": "skill",
+    "name": "codescope",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oopslink__trading-skills",
+    "type": "skill",
+    "name": "trading-skills",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "openclix__openclix",
+    "type": "skill",
+    "name": "openclix",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "opendatahub-io__agent-eval-harness",
+    "type": "skill",
+    "name": "agent-eval-harness",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "opengeos__geoai-skills",
+    "type": "skill",
+    "name": "geoai-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "openjunto__oj-claude",
+    "type": "skill",
+    "name": "oj",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "openprose__prose",
+    "type": "skill",
+    "name": "open-prose",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "openraiser__paperfit",
+    "type": "skill",
+    "name": "paperfit",
+    "relevant": true,
+    "reason": "pdf",
+    "category": "productivity"
+  },
+  {
+    "slug": "openzeppelin__openzeppelin-skills",
+    "type": "skill",
+    "name": "openzeppelin-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oprogramadorreal__optimus-claude",
+    "type": "skill",
+    "name": "optimus",
+    "relevant": true,
+    "reason": "jira",
+    "category": "platform"
+  },
+  {
+    "slug": "opslane__opslane",
+    "type": "skill",
+    "name": "opslane-verify",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "optim-agent__optim-plans",
+    "type": "skill",
+    "name": "optim-plans",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "optimiziramsi__skills",
+    "type": "command",
+    "name": "optimiziramsi-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "optimnow__cloud-finops-skills",
+    "type": "skill",
+    "name": "cloud-finops",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "orassayag__super-status",
+    "type": "plugin",
+    "name": "super-status",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "oribarilan__97",
+    "type": "skill",
+    "name": "97",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "osauer__ibkr",
+    "type": "skill",
+    "name": "canary",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "oscal-compass-lab__compliance-trestle-skills",
+    "type": "skill",
+    "name": "compliance-trestle",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oshayr__llm-wiki",
+    "type": "skill",
+    "name": "llm-wiki",
+    "relevant": false,
+    "reason": "developer tool with incidental productivity features",
+    "category": "productivity"
+  },
+  {
+    "slug": "oso95__finding-unknowns",
+    "type": "skill",
+    "name": "finding-unknowns",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oso95__scroll-world",
+    "type": "skill",
+    "name": "scroll-world",
+    "relevant": true,
+    "reason": "brand",
+    "category": "content"
+  },
+  {
+    "slug": "othmanadi__mddesign",
+    "type": "skill",
+    "name": "mddesign",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "othmanadi__plan-it",
+    "type": "skill",
+    "name": "plan-it",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "othmanadi__planning-with-files",
+    "type": "skill",
+    "name": "planning-with-files",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ouonet__praxis",
+    "type": "skill",
+    "name": "praxis",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ovargas__virtual-team",
+    "type": "plugin",
+    "name": "virtual-team",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "owulveryck__wardleytogo",
+    "type": "skill",
+    "name": "wtg2",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oxbshw__watch-skill",
+    "type": "skill",
+    "name": "watch-skill",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oxy-hq__airlayer",
+    "type": "skill",
+    "name": "airlayer",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "oxylabs__agent-skills",
+    "type": "skill",
+    "name": "oxylabs",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ozgurcd__gograph",
+    "type": "plugin",
+    "name": "gograph",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "paarths-collab__agent-recipes",
+    "type": "skill",
+    "name": "hstack",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pair-systems-inc__goodmem-claude-code-plugin",
+    "type": "skill",
+    "name": "goodmem",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "panda850819__pandastack",
+    "type": "skill",
+    "name": "verbs",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "panewslab__skills",
+    "type": "skill",
+    "name": "panews",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pangenomeai__academic-skills-food-nutrition",
+    "type": "skill",
+    "name": "academic-skills-food-nutrition",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pasqualevittoriosi__swift-accessibility-skill",
+    "type": "skill",
+    "name": "swift-accessibility-skill",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "pasteurmonga__the-crucible-writing-system-for-claude",
+    "type": "skill",
+    "name": "crucible-suite",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "patchorbit__domscribe",
+    "type": "skill",
+    "name": "domscribe",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "patricio0312rev__workspaces",
+    "type": "skill",
+    "name": "workspaces",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "paulkinlan__web-uplift",
+    "type": "skill",
+    "name": "web-uplift",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "paypal__ai-toolkit",
+    "type": "plugin",
+    "name": "paypal",
+    "relevant": true,
+    "reason": "invoice",
+    "category": "productivity"
+  },
+  {
+    "slug": "pbakaus__agent-reviews",
+    "type": "skill",
+    "name": "agent-reviews",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pbakaus__impeccable",
+    "type": "plugin",
+    "name": "impeccable",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pcc-labs__sweeper",
+    "type": "skill",
+    "name": "sweeper",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pcircle-ai__memesh-llm-memory",
+    "type": "skill",
+    "name": "memesh",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pcircle-ai__toonify-mcp",
+    "type": "plugin",
+    "name": "toonify-mcp",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pegasi-ai__reins",
+    "type": "skill",
+    "name": "reins",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "petercha90__cap",
+    "type": "skill",
+    "name": "cap",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "peterhdd__agent-skills",
+    "type": "skill",
+    "name": "agent-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "peterknego__diataxis-docs-skill",
+    "type": "skill",
+    "name": "diataxis-docs",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "phash__pindex",
+    "type": "mcp-server",
+    "name": "pindex",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "phazurlabs__ux-ui-mastery",
+    "type": "plugin",
+    "name": "sumi",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "phitoduck__lose-it",
+    "type": "skill",
+    "name": "log-food",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "phj128__autoworker",
+    "type": "skill",
+    "name": "autoworker",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "phodal__entrix",
+    "type": "skill",
+    "name": "entrix",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pi-sloane__claude-plugin",
+    "type": "skill",
+    "name": "pi-security",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "piercelamb__deep-implement",
+    "type": "skill",
+    "name": "deep-implement",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "piercelamb__deep-plan",
+    "type": "skill",
+    "name": "deep-plan",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "piercelamb__deep-project",
+    "type": "skill",
+    "name": "deep-project",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "piercelamb__lodestone",
+    "type": "skill",
+    "name": "lodestone",
+    "relevant": true,
+    "reason": "blog post",
+    "category": "content"
+  },
+  {
+    "slug": "pika-labs__pika-plugins",
+    "type": "skill",
+    "name": "pika",
+    "relevant": true,
+    "reason": "brand",
+    "category": "content"
+  },
+  {
+    "slug": "pinecone-io__pinecone-claude-code-plugin",
+    "type": "skill",
+    "name": "pinecone",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pinocpie__thai-claude-skills",
+    "type": "skill",
+    "name": "thai-worker-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pinperepette__agd-memory",
+    "type": "skill",
+    "name": "agd-memory",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pipecrew-ai__pipecrew",
+    "type": "plugin",
+    "name": "pipecrew",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pipefy__ai-toolkit",
+    "type": "skill",
+    "name": "pipefy",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pixell-global__sayou",
+    "type": "skill",
+    "name": "sayou",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pixeltable__pixeltable-skill",
+    "type": "skill",
+    "name": "pixeltable",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pixijs__pixijs-skills",
+    "type": "skill",
+    "name": "pixijs-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "piyiotisk__htmx-skills",
+    "type": "skill",
+    "name": "htmx",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pkuinfo__pkucli",
+    "type": "skill",
+    "name": "pku-cli",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "planstack-ai__planstack",
+    "type": "skill",
+    "name": "plan-stack",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pluginagentmarketplace__custom-plugin-angular",
+    "type": "skill",
+    "name": "angular-development-assistant",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "pluginagentmarketplace__custom-plugin-flutter",
+    "type": "skill",
+    "name": "custom-plugin-flutter",
+    "relevant": true,
+    "reason": "localization",
+    "category": "content"
+  },
+  {
+    "slug": "pluginagentmarketplace__custom-plugin-game-developer",
+    "type": "skill",
+    "name": "custom-plugin-game-developer",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "pluginagentmarketplace__custom-plugin-kotlin",
+    "type": "skill",
+    "name": "kotlin-development-assistant",
+    "relevant": true,
+    "reason": "marketplace",
+    "category": "platform"
+  },
+  {
+    "slug": "pluginagentmarketplace__custom-plugin-python",
+    "type": "plugin",
+    "name": "python-developer-plugin",
+    "relevant": false,
+    "reason": "developer tool with incidental productivity features",
+    "category": "productivity"
+  },
+  {
+    "slug": "pluginagentmarketplace__custom-plugin-react-native",
+    "type": "skill",
+    "name": "react-native-development-assistant",
+    "relevant": false,
+    "reason": "developer tool with incidental productivity features",
+    "category": "productivity"
+  },
+  {
+    "slug": "pluginagentmarketplace__custom-plugin-swift",
+    "type": "skill",
+    "name": "swift-development-assistant",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "pluto2060__ctx",
+    "type": "plugin",
+    "name": "ctx",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "poemswe__co-researcher",
+    "type": "skill",
+    "name": "co-researcher",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "popup-studio-ai__bkit-claude-code",
+    "type": "mcp-server",
+    "name": "bkit",
+    "relevant": true,
+    "reason": "multilingual",
+    "category": "content"
+  },
+  {
+    "slug": "post-bridge-hq__agent-mode",
+    "type": "skill",
+    "name": "post-bridge",
+    "relevant": true,
+    "reason": "instagram",
+    "category": "content"
+  },
+  {
+    "slug": "posthog__claude-code-share-plugin",
+    "type": "plugin",
+    "name": "share",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "powabase-ai__agent-skills",
+    "type": "skill",
+    "name": "powabase",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ppgranger__token-saver",
+    "type": "plugin",
+    "name": "token-saver",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "prajapatimehul__comp-agent",
+    "type": "skill",
+    "name": "compliance-pilot",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pranav8494__team-of-agents",
+    "type": "skill",
+    "name": "team-of-agents",
+    "relevant": true,
+    "reason": "seo",
+    "category": "research"
+  },
+  {
+    "slug": "promptclickrun__power-agents-blueprint",
+    "type": "skill",
+    "name": "power-agents-blueprint",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "prompted365__context-grapple-gun",
+    "type": "plugin",
+    "name": "context-grapple-gun",
+    "relevant": true,
+    "reason": "proposal",
+    "category": "productivity"
+  },
+  {
+    "slug": "proyecto26__autoresearch-ai-plugin",
+    "type": "skill",
+    "name": "autoresearch-ai-plugin",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "proyecto26__notebooklm-ai-plugin",
+    "type": "skill",
+    "name": "notebooklm-ai-plugin",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "proyecto26__sherlock-ai-plugin",
+    "type": "skill",
+    "name": "sherlock-ai-plugin",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "proyecto26__slides-ai-plugin",
+    "type": "skill",
+    "name": "slides-ai-plugin",
+    "relevant": true,
+    "reason": "presentation",
+    "category": "design"
+  },
+  {
+    "slug": "proyecto26__system-design-skills",
+    "type": "skill",
+    "name": "system-design-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pspdfkit-labs__agentic-usability",
+    "type": "skill",
+    "name": "agentic-usability",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pssah4__digital-innovation-agents",
+    "type": "agent",
+    "name": "digital-innovation-agents",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "psylch__better-skills",
+    "type": "skill",
+    "name": "better-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "psylch__ghostty-vibe-coding-stack",
+    "type": "skill",
+    "name": "configuring-ghostty-vibe-stack",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "psylch__media-master",
+    "type": "skill",
+    "name": "media-master",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "psylch__quark-download-skill",
+    "type": "skill",
+    "name": "quark-download",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "publicala__bake-claude-md-files-skill",
+    "type": "skill",
+    "name": "bake-claude-md-files",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "puertasbogota__seo-prueba1",
+    "type": "skill",
+    "name": "claude-seo",
+    "relevant": true,
+    "reason": "seo",
+    "category": "research"
+  },
+  {
+    "slug": "puffinsoft__mousecrack",
+    "type": "skill",
+    "name": "move-mouse",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pulumi__agent-skills",
+    "type": "skill",
+    "name": "pulumi",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "punt-labs__beadle",
+    "type": "mcp-server",
+    "name": "beadle-dev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "punt-labs__biff",
+    "type": "mcp-server",
+    "name": "biff",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "punt-labs__dungeon",
+    "type": "skill",
+    "name": "dungeon-dev",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "punt-labs__ethos",
+    "type": "mcp-server",
+    "name": "ethos-dev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "punt-labs__lux",
+    "type": "mcp-server",
+    "name": "lux-dev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "punt-labs__prfaq",
+    "type": "plugin",
+    "name": "prfaq-dev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "punt-labs__punt-kit",
+    "type": "skill",
+    "name": "punt-dev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "punt-labs__vox",
+    "type": "mcp-server",
+    "name": "vox-dev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "punt-labs__z-spec",
+    "type": "mcp-server",
+    "name": "z-spec-dev",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pupok462__open-geo",
+    "type": "skill",
+    "name": "open-geo",
+    "relevant": true,
+    "reason": "seo",
+    "category": "research"
+  },
+  {
+    "slug": "pydantic__claude-code-logfire-plugin",
+    "type": "plugin",
+    "name": "logfire-session-capture",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pythoughts-labs__designer-skill",
+    "type": "skill",
+    "name": "designer-skill",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "pzep1__xcode-build-skill",
+    "type": "skill",
+    "name": "xcode-build-skill",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "qainsights__perf-skills",
+    "type": "skill",
+    "name": "perf",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "qdrant__skills",
+    "type": "skill",
+    "name": "qdrant",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "qhkm__fastripgrep",
+    "type": "skill",
+    "name": "frg",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "qoderai__better-harness",
+    "type": "skill",
+    "name": "better-harness",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "quanru__claude-code-boomerang",
+    "type": "plugin",
+    "name": "claude-code-boomerang",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "quantumbfs__sci-brain",
+    "type": "skill",
+    "name": "sci-brain",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "quarkusio__quarkus-agent-mcp",
+    "type": "agent",
+    "name": "quarkus-agent",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "r-hashi01__skills-to-dify-workflow",
+    "type": "skill",
+    "name": "skills-to-dify-workflow",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ra0x3__systemg",
+    "type": "skill",
+    "name": "systemg",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rafaelgorski__problem-based-srs",
+    "type": "plugin",
+    "name": "problem-based-srs",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rafaelolsr__delivery-graph",
+    "type": "skill",
+    "name": "delivery-graph",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "raine__git-surgeon",
+    "type": "skill",
+    "name": "git-surgeon",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "raine__workmux",
+    "type": "plugin",
+    "name": "workmux-status",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "raiyanyahya__justsaydone",
+    "type": "plugin",
+    "name": "justsaydone",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "ramakrishnan24689__codeapps-toolkit",
+    "type": "skill",
+    "name": "codeapps-toolkit",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rambowasreal__react-native-gleam",
+    "type": "skill",
+    "name": "react-native-gleam",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rampstackco__claude-skills",
+    "type": "skill",
+    "name": "rampstack-skills",
+    "relevant": true,
+    "reason": "brand",
+    "category": "research"
+  },
+  {
+    "slug": "randmelville__claude-war-room",
+    "type": "command",
+    "name": "claude-war-room",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "randroids-dojo__skills",
+    "type": "skill",
+    "name": "skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "randsum__randsum",
+    "type": "skill",
+    "name": "randsum",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "raphaelchristi__harness-evolver",
+    "type": "skill",
+    "name": "harness-evolver",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rappdw__pka-skills",
+    "type": "skill",
+    "name": "pka-skills",
+    "relevant": false,
+    "reason": "developer tool with incidental productivity features",
+    "category": "productivity"
+  },
+  {
+    "slug": "rappdw__synthdata",
+    "type": "skill",
+    "name": "synthdata",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "rappdw__thinkkit",
+    "type": "skill",
+    "name": "thinkkit",
+    "relevant": true,
+    "reason": "press release",
+    "category": "content"
+  },
+  {
+    "slug": "ratler__dream-team",
+    "type": "skill",
+    "name": "dream-team",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rbarcante__claude-conductor",
+    "type": "skill",
+    "name": "conductor",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "realgarit__fable-baton",
+    "type": "skill",
+    "name": "fable-baton",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "red-candle-games-co-ltd__monofsm",
+    "type": "skill",
+    "name": "monofsm",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rekin226__paper-agent",
+    "type": "skill",
+    "name": "paper-agent",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rendi-api__ffmpeg-llm",
+    "type": "skill",
+    "name": "ffmpeg-llm",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rengwu__wayfinder-maps",
+    "type": "skill",
+    "name": "wayfinder-maps",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rennf93__opus-fable-playbook",
+    "type": "skill",
+    "name": "fable-mode",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "reolink__reolink-cli",
+    "type": "skill",
+    "name": "reolink-cli",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "replicate__skills",
+    "type": "skill",
+    "name": "replicate",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "resend__resend-skills",
+    "type": "skill",
+    "name": "resend",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "reshefelisha__jarvis-onshape-mcp",
+    "type": "skill",
+    "name": "jarvis-onshape-mcp",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "revfactory__harness",
+    "type": "skill",
+    "name": "harness",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "revylai__greenlight",
+    "type": "skill",
+    "name": "greenlight",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "rfxn__rdf",
+    "type": "command",
+    "name": "rdf",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rhavekost__author-toolkit",
+    "type": "skill",
+    "name": "author-toolkit",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "richkuo__fableplan",
+    "type": "skill",
+    "name": "fableplan",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "richkuo__rk-skills",
+    "type": "skill",
+    "name": "rk-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rijksictgilde__zad-actions",
+    "type": "skill",
+    "name": "zad-actions",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rizukirr__no-vibe",
+    "type": "skill",
+    "name": "no-vibe",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rizukirr__vibekit",
+    "type": "skill",
+    "name": "vibekit",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rlabarca__purlin",
+    "type": "skill",
+    "name": "purlin",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rlaope__argus",
+    "type": "skill",
+    "name": "argus-jvm-harness",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rnavarych__alpha-engineer",
+    "type": "unknown",
+    "name": "alpha-engineer",
+    "relevant": true,
+    "reason": "e-commerce",
+    "category": "platform"
+  },
+  {
+    "slug": "robertoecf__claude-code-review-subagents",
+    "type": "skill",
+    "name": "adversarial-review",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "robotlearning123__gpt2agent",
+    "type": "skill",
+    "name": "gpt2agent",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "robsontigre__everyday-causal-skills",
+    "type": "skill",
+    "name": "everyday-causal-skills",
+    "relevant": true,
+    "reason": "ab-testing",
+    "category": "research"
+  },
+  {
+    "slug": "robthepcguy__claude-patent-creator",
+    "type": "unknown",
+    "name": "claude-patent-creator-standalone",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "robzilla1738__supergoal",
+    "type": "skill",
+    "name": "supergoal",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "romanticamaj__omni-research",
+    "type": "skill",
+    "name": "omni-research",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  },
+  {
+    "slug": "rorkai__rork-local",
+    "type": "skill",
+    "name": "rork-local",
+    "relevant": false,
+    "reason": "niche technical domain",
+    "category": "productivity"
+  },
+  {
+    "slug": "rrmaram2000__matlab-toolbox-skills",
+    "type": "skill",
+    "name": "matlab-toolbox-skills",
+    "relevant": false,
+    "reason": "no marketing utility",
+    "category": "productivity"
+  }
+]

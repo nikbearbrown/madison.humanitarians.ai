@@ -1,163 +1,216 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { getType, sampleSlug, TYPE_SLUGS } from '@/data/claude-types'
-import { getAuditEntriesByType } from '@/lib/ingest'
-import type { AuditEntry } from '@/data/catalog/audit-entry'
+import { ArrowRight, AlertCircle } from 'lucide-react'
+import {
+  getEntriesByType,
+  getActiveTypes,
+  groupByCategory,
+} from '@/lib/madison-claude'
+import type { MadisonEntry } from '@/types/madison-claude'
 
 interface Props {
   params: Promise<{ type: string }>
 }
 
+// ── Static params — only types with ≥1 entry ─────────────────────────────────
+
 export function generateStaticParams() {
-  return TYPE_SLUGS.map((type) => ({ type }))
+  return getActiveTypes().map(({ typeSlug }) => ({ type: typeSlug }))
 }
+
+// ── Type metadata ─────────────────────────────────────────────────────────────
+
+const TYPE_LABELS: Record<string, string> = {
+  skills: 'Skills',
+  plugins: 'Plugins',
+  'mcp-servers': 'MCP Servers',
+  commands: 'Commands',
+  agents: 'Agents',
+}
+
+const TYPE_BLURBS: Record<string, string> = {
+  skills:
+    'Capability packages that load into Claude as named workflows — task instructions, decision rules, and optional scripts. Skills activate when the user asks a relevant question; no explicit invocation required.',
+  plugins:
+    'Packaged extensions distributed through the Claude plugin ecosystem. Each plugin ships with a manifest declaring its name, version, description, and keywords, installed via the Claude extension system.',
+  'mcp-servers':
+    'Model Context Protocol servers expose structured tools and resources to Claude over a local or remote connection. MCP servers let Claude call into external services, APIs, and data stores with a defined schema.',
+  commands:
+    'Named, reusable canned actions invoked with stable arguments. Commands provide a repeatable execution recipe for common developer or automation tasks.',
+  agents:
+    'Delegable sub-agent roles with bounded tool grants and defined response formats. Agents handle scoped subtasks on behalf of a parent agent.',
+}
+
+const CATEGORY_LABELS: Record<string, string> = {
+  content: 'Content & Copy',
+  research: 'Research & Intel',
+  productivity: 'Productivity',
+  platform: 'Platforms & Tools',
+  design: 'Design & Visual',
+  data: 'Data & Analytics',
+}
+
+// ── Metadata ──────────────────────────────────────────────────────────────────
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { type } = await params
-  const t = getType(type)
-  if (!t) return {}
-  return { title: `${t.label} — Bear Brown`, description: t.blurb.slice(0, 155) }
+  const label = TYPE_LABELS[type]
+  if (!label) return {}
+  return {
+    title: `${label} — Claude Tools — Madison | Humanitarians AI`,
+    description: TYPE_BLURBS[type]?.slice(0, 155) ?? '',
+  }
 }
 
-function coverageColor(label: string): string {
-  if (label.startsWith('CLEARED')) return 'var(--p-blue)'
-  if (label.startsWith('QUARANTINE')) return 'var(--p-vermilion)'
-  return 'var(--p-ink-muted)'
-}
+// ── Entry card ────────────────────────────────────────────────────────────────
 
-function AuditCard({ entry, typeSlug }: { entry: AuditEntry; typeSlug: string }) {
-  const href = `/claude/${typeSlug}/${entry.urlSlug}`
-  const topTag = entry.tags[0] ?? entry.portability
+function EntryCard({ entry }: { entry: MadisonEntry }) {
+  const href = `/claude/${entry.typeSlug}/${entry.urlSlug}`
+  const shownKeywords = entry.keywords.slice(0, 3)
+
   return (
     <Link
       href={href}
-      style={{
-        display: 'flex', flexDirection: 'column', minHeight: '238px',
-        background: 'var(--p-bg-card)', border: '1px solid var(--p-border)',
-        borderRadius: '6px', padding: '24px', textDecoration: 'none',
-      }}
+      className="group flex flex-col rounded-lg border bg-background p-6 transition-colors hover:border-primary"
     >
-      <p style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', letterSpacing: '0.09em', textTransform: 'uppercase', color: coverageColor(entry.coverage.label), marginBottom: '14px' }}>
-        {entry.coverage.label}
-      </p>
-      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: '12px', marginBottom: '6px' }}>
-        <span style={{ fontFamily: 'var(--font-serif)', fontSize: '20px', color: 'var(--p-ink)', lineHeight: 1.2 }}>{entry.name}</span>
-        {topTag && (
-          <span style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', letterSpacing: '0.05em', color: 'var(--p-ink-muted)', border: '1px solid var(--p-border-strong)', padding: '2px 7px', borderRadius: '3px', flexShrink: 0 }}>{topTag}</span>
-        )}
+      {/* Name + repo */}
+      <div className="mb-2">
+        <h3 className="text-lg font-bold leading-snug group-hover:text-primary transition-colors">
+          {entry.name}
+        </h3>
+        <p className="text-xs text-muted-foreground mt-0.5">
+          {entry.owner}/{entry.repo}
+        </p>
       </div>
-      <p style={{ fontFamily: 'var(--font-sans)', fontSize: '12px', color: 'var(--p-ink-muted)', marginBottom: '6px' }}>
-        {entry.owner}/{entry.repo}
+
+      {/* Description */}
+      <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-1">
+        {entry.description.length > 160
+          ? entry.description.slice(0, 160) + '…'
+          : entry.description}
       </p>
-      <p style={{ fontFamily: 'var(--font-sans)', fontSize: '14px', lineHeight: 1.6, color: 'var(--p-ink-soft)' }}>
-        {entry.description.slice(0, 160)}
-      </p>
-      <div style={{ marginTop: 'auto', paddingTop: '22px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '12px', borderTop: '1px solid var(--p-border)' }}>
-        <span style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', color: 'var(--p-ink-muted)', letterSpacing: '0.05em' }}>
-          Audited {entry.receipts.audited_date}
+
+      {/* Keywords */}
+      {shownKeywords.length > 0 && (
+        <div className="flex flex-wrap gap-1 mb-4">
+          {shownKeywords.map((kw) => (
+            <span
+              key={kw}
+              className="inline-flex items-center rounded border px-2 py-0.5 text-xs text-muted-foreground"
+            >
+              {kw}
+            </span>
+          ))}
+        </div>
+      )}
+
+      {/* Footer */}
+      <div className="flex items-center justify-between gap-4 pt-4 border-t">
+        <span className="text-xs text-muted-foreground">
+          Audited {entry.auditedDate}
         </span>
-        <span style={{ fontFamily: 'var(--font-sans)', fontSize: '11px', color: 'var(--p-terra)', letterSpacing: '0.04em' }}>View audit →</span>
+        <span className="inline-flex items-center gap-1 text-xs font-semibold text-primary">
+          View <ArrowRight className="h-3 w-3" aria-hidden="true" />
+        </span>
       </div>
     </Link>
   )
 }
 
+// ── Page ──────────────────────────────────────────────────────────────────────
+
 export default async function ClaudeTypePage({ params }: Props) {
   const { type } = await params
-  const t = getType(type)
-  if (!t) notFound()
+  const label = TYPE_LABELS[type]
+  if (!label) notFound()
 
-  const auditEntries = await getAuditEntriesByType(type)
+  const typeEntries = getEntriesByType(type)
+  if (typeEntries.length === 0) notFound()
+
+  const grouped = groupByCategory(typeEntries)
 
   return (
-    <div style={{ background: 'var(--p-bg)', minHeight: '100vh' }}>
+    <div className="flex w-full flex-col bg-background text-foreground">
+
       {/* Hero */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) clamp(24px, 5vw, 80px) clamp(28px, 4vw, 44px)', maxWidth: '780px' }}>
-        <p style={{ fontFamily: 'var(--font-sans)', fontSize: '11px', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--p-terra)', marginBottom: '20px' }}>
-          Claude Tools · {t.value}
-        </p>
-        <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(32px, 5vw, 52px)', fontWeight: 400, lineHeight: 1.1, color: 'var(--p-ink)', letterSpacing: '-0.01em', marginBottom: '20px' }}>
-          {t.label}
-        </h1>
-        <p style={{ fontFamily: 'var(--font-sans)', fontSize: '16px', lineHeight: 1.7, color: 'var(--p-ink-soft)', maxWidth: '580px' }}>
-          {t.blurb}
-        </p>
+      <section className="w-full py-12 md:py-20">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="max-w-[820px] space-y-4">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
+              Claude Tools · {label}
+            </p>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">
+              {label}
+            </h1>
+            <p className="text-lg text-muted-foreground max-w-[640px]">
+              {TYPE_BLURBS[type] ?? ''}
+            </p>
+            <p className="text-sm font-semibold text-foreground">
+              {typeEntries.length} entr
+              {typeEntries.length === 1 ? 'y' : 'ies'} — filtered for marketing
+              and brand teams
+            </p>
+          </div>
+        </div>
       </section>
 
-      <hr style={{ border: 'none', borderTop: '1px solid var(--p-border)', margin: 0 }} />
+      {/* Disclosure */}
+      <div className="container mx-auto px-4 md:px-6 pb-4">
+        <div className="rounded-lg border bg-muted p-4 flex gap-3">
+          <AlertCircle className="h-4 w-4 shrink-0 text-muted-foreground mt-0.5" aria-hidden="true" />
+          <p className="text-xs text-muted-foreground leading-relaxed">
+            Each entry is a <strong className="text-foreground">CLEARED_STATIC</strong> record:
+            static checks ran (eligibility, dedup, cloc, secrets, egress, injection,
+            required fields). Behavioral execution has not run. No entry implies a
+            sandbox test or claim about runtime behavior.
+          </p>
+        </div>
+      </div>
 
-      {/* Audited listings (real entries from the 24/7 pipeline) */}
-      {auditEntries.length > 0 && (
-        <>
-          <section style={{ padding: '16px clamp(24px, 5vw, 80px)', borderBottom: '1px solid var(--p-border)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px' }}>
-            <p style={{ fontFamily: 'var(--font-sans)', fontSize: '12px', color: 'var(--p-ink)', letterSpacing: '0.02em' }}>
-              Audited listings
-            </p>
-            <p style={{ fontFamily: 'var(--font-sans)', fontSize: '11px', color: 'var(--p-ink-muted)', margin: 0 }}>
-              {auditEntries.length} entr{auditEntries.length === 1 ? 'y' : 'ies'} · pipeline-verified
-            </p>
-          </section>
+      {/* Breadcrumb */}
+      <div className="container mx-auto px-4 md:px-6 pb-2">
+        <p className="text-xs text-muted-foreground">
+          <Link href="/claude" className="hover:text-foreground transition-colors">
+            Claude Tools
+          </Link>
+          {' / '}
+          {label}
+        </p>
+      </div>
 
-          <section style={{ padding: 'clamp(24px, 3vw, 40px) clamp(24px, 5vw, 80px)' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '16px' }}>
-              {auditEntries.map(entry => (
-                <AuditCard key={entry.id} entry={entry} typeSlug={type} />
-              ))}
+      {/* Grouped listings */}
+      <section className="w-full py-8">
+        <div className="container mx-auto px-4 md:px-6 space-y-14">
+          {Object.entries(grouped).map(([cat, catEntries]) => (
+            <div key={cat}>
+              <div className="mb-6">
+                <h2 className="text-xl font-bold">
+                  {CATEGORY_LABELS[cat] ?? cat}
+                </h2>
+                <p className="text-sm text-muted-foreground mt-1">
+                  {catEntries.length} tool{catEntries.length === 1 ? '' : 's'}
+                </p>
+              </div>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {catEntries.map((entry) => (
+                  <EntryCard key={entry.slug} entry={entry} />
+                ))}
+              </div>
             </div>
-          </section>
-
-          <hr style={{ border: 'none', borderTop: '1px solid var(--p-border)', margin: 0 }} />
-        </>
-      )}
-
-      {/* Starter-page note (illustrative examples) */}
-      <section style={{ padding: '16px clamp(24px, 5vw, 80px)', borderBottom: '1px solid var(--p-border)' }}>
-        <p style={{ fontFamily: 'var(--font-sans)', fontSize: '12px', color: 'var(--p-ink-muted)', letterSpacing: '0.02em' }}>
-          {auditEntries.length > 0
-            ? 'Five illustrative examples — content shape only, not audited listings.'
-            : 'Five starter examples for reviewing this page template. They illustrate the content shape only and are not audited listings or rankings.'}
-        </p>
-      </section>
-
-      {/* Directory controls — visual starter state */}
-      <section style={{ padding: '20px clamp(24px, 5vw, 80px)', borderBottom: '1px solid var(--p-border)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '20px', flexWrap: 'wrap' }}>
-        <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-          {['All examples', ...Array.from(new Set(t.samples.map((sample) => sample.tag))).slice(0, 3)].map((filter, index) => (
-            <span key={filter} style={{ fontFamily: 'var(--font-sans)', fontSize: '11px', color: index === 0 ? 'var(--p-bg)' : 'var(--p-ink-soft)', background: index === 0 ? 'var(--p-ink)' : 'transparent', border: '1px solid var(--p-border-strong)', borderRadius: '3px', padding: '6px 10px' }}>{filter}</span>
-          ))}
-        </div>
-        <p style={{ fontFamily: 'var(--font-sans)', fontSize: '11px', color: 'var(--p-ink-muted)', margin: 0 }}>5 examples · starter content</p>
-      </section>
-
-      {/* Illustrative grid */}
-      <section style={{ padding: 'clamp(32px, 4vw, 56px) clamp(24px, 5vw, 80px)' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '16px' }}>
-          {t.samples.map((s, index) => (
-            <Link
-              key={s.name}
-              href={`/claude/${t.slug}/${sampleSlug(s)}`}
-              style={{ display: 'flex', flexDirection: 'column', minHeight: '238px', background: 'var(--p-bg-card)', border: '1px solid var(--p-border)', borderRadius: '6px', padding: '24px', textDecoration: 'none', transition: 'border-color 0.15s, transform 0.15s' }}
-            >
-              <p style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', letterSpacing: '0.09em', textTransform: 'uppercase', color: 'var(--p-terra)', marginBottom: '14px' }}>
-                Example {String(index + 1).padStart(2, '0')}
-              </p>
-              <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: '12px', marginBottom: '6px' }}>
-                <span style={{ fontFamily: 'var(--font-serif)', fontSize: '20px', color: 'var(--p-ink)', lineHeight: 1.2 }}>{s.name}</span>
-                <span style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', letterSpacing: '0.05em', color: 'var(--p-ink-muted)', border: '1px solid var(--p-border-strong)', padding: '2px 7px', borderRadius: '3px', flexShrink: 0 }}>{s.tag}</span>
-              </div>
-              {s.source && (
-                <p style={{ fontFamily: 'var(--font-sans)', fontSize: '12px', color: 'var(--p-ink-muted)', marginBottom: '10px' }}>{s.source}</p>
-              )}
-              <p style={{ fontFamily: 'var(--font-sans)', fontSize: '14px', lineHeight: 1.6, color: 'var(--p-ink-soft)' }}>{s.description}</p>
-              <div style={{ marginTop: 'auto', paddingTop: '22px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '12px', borderTop: '1px solid var(--p-border)' }}>
-                <span style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', color: 'var(--p-ink-muted)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>Editable sample</span>
-                <span style={{ fontFamily: 'var(--font-sans)', fontSize: '11px', color: 'var(--p-terra)', letterSpacing: '0.04em' }}>View full page →</span>
-              </div>
-            </Link>
           ))}
         </div>
       </section>
+
+      {/* Back */}
+      <div className="container mx-auto px-4 md:px-6 py-10">
+        <Link
+          href="/claude"
+          className="text-sm font-medium text-primary hover:underline"
+        >
+          ← All Claude Tools
+        </Link>
+      </div>
     </div>
   )
 }
